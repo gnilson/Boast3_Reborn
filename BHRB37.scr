@@ -1,0 +1,1369 @@
+ [BHRB37.sim] BOAST3 MULIBLOCK BAHAR MODEL; w/Trans.Mod. 71 ac development 1
+ ID2:   used KIP = -11 @BHR1, KIP=1 BHR2 &w:1626#FBHP to get implicitBHP & F
+ ID3:   Split Hazro in 2, .05 md and Bedinan to 0.7 md. perm (x&y) & Kz = .1
+ ID4:   added in new PID DATA & Second Fault & ITCODE = 0 means dont print t
+ ID5:   Added switches Kromp, Krwmp, Krgmp - 03/30/93 !!                    
+
+
+              IMPES FORMULATION SELECTED;  SINGLE-POINT UPSTREAM WEIGHTING.
+
+
+
+
+     Number of wells this simulation =    50
+
+
+
+ Well   Nodes    Name  
+ =====  ===== ======== 
+    1      1  BHR1    
+    2      1  BHR1    
+    3      1  BHR1    
+    4      1  BHR2    
+    5      1  BHR2    
+    6      1  BHR3    
+    7      1  BHR3    
+    8      1  BHR3    
+    9      1  BHR4    
+   10      1  BHR4    
+   11      1  BHR4    
+   12      1  BHR5    
+   13      1  BHR5    
+   14      1  BHR5    
+   15      1  BHR6    
+   16      1  BHR6    
+   17      1  BHR6    
+   18      1  BHR7    
+   19      1  BHR7    
+   20      1  BHR7    
+   21      1  BHR8    
+   22      1  BHR8    
+   23      1  BHR8    
+   24      1  BHR9    
+   25      1  BHR9    
+   26      1  BHR9    
+   27      1  BHR10   
+   28      1  BHR10   
+   29      1  BHR10   
+   30      1  BHR11   
+   31      1  BHR11   
+   32      1  BHR11   
+   33      1  BHR12   
+   34      1  BHR12   
+   35      1  BHR12   
+   36      1  BHR13   
+   37      1  BHR13   
+   38      1  BHR13   
+   39      1  BHR14   
+   40      1  BHR14   
+   41      1  BHR14   
+   42      1  BHR15   
+   43      1  BHR15   
+   44      1  BHR15   
+   45      1  BHR16   
+   46      1  BHR16   
+   47      1  BHR16   
+   48      1  BHR17   
+   49      1  BHR17   
+   50      1  BHR17   
+     1    15  13   1      1
+     2    15  13   2      1
+     3    15  13   4      1
+     4    25  10   1      1
+     5    25  10   2      1
+     6    22  13   1      1
+     7    22  13   2      1
+     8    22  13   4      1
+     9    22  20   1      1
+    10    22  20   2      1
+    11    22  20   4      1
+    12    19   6   1      1
+    13    19   6   2      1
+    14    19   6   4      1
+    15    29  20   1      1
+    16    29  20   2      1
+    17    29  20   4      1
+    18    29  27   1      1
+    19    29  27   2      1
+    20    29  27   4      1
+    21    36  25   1      1
+    22    36  25   2      1
+    23    36  25   4      1
+    24    22  27   1      1
+    25    22  27   2      1
+    26    22  27   4      1
+    27    15  20   1      1
+    28    15  20   2      1
+    29    15  20   4      1
+    30    15  27   1      1
+    31    15  27   2      1
+    32    15  27   4      1
+    33    12   6   1      1
+    34    12   6   2      1
+    35    12   6   4      1
+    36    29  34   1      1
+    37    29  34   2      1
+    38    29  34   4      1
+    39    36  32   1      1
+    40    36  32   2      1
+    41    36  32   4      1
+    42    22  34   1      1
+    43    22  34   2      1
+    44    22  34   4      1
+    45    43  35   1      1
+    46    43  35   2      1
+    47    43  35   4      1
+    48    50  35   1      1
+    49    50  35   2      1
+    50    50  35   4      1
+
+
+ NBYTES=33314  Record Length of Map file: MAPREC=33408
+
+
+
+ NBYTES= 5684  Record Length of BPD file =  5760 bytes
+
+
+ BOAST3:  Step=   1  Time= 0.10000      Delt= 0.10000      ITER=   25
+          Field Prd Rates (Oil, Gas, Wat):   14783.2   10826.3       6.1
+
+ BOAST3:  Step=   2  Time= 0.20000      Delt= 0.10000      ITER=   25
+          Field Prd Rates (Oil, Gas, Wat):   14442.0   10576.4       6.0
+
+ BOAST3:  Step=   3  Time= 0.30000      Delt= 0.10000      ITER=   24
+          Field Prd Rates (Oil, Gas, Wat):   14118.3   10339.4       5.8
+
+ BOAST3:  Step=   4  Time= 0.40000      Delt= 0.10000      ITER=   24
+          Field Prd Rates (Oil, Gas, Wat):   13810.6   10114.1       5.7
+
+ BOAST3:  Step=   5  Time= 0.50000      Delt= 0.10000      ITER=   24
+          Field Prd Rates (Oil, Gas, Wat):   13486.2    9876.5       5.6
+
+ BOAST3:  Step=   6  Time= 0.60000      Delt= 0.10000      ITER=   24
+          Field Prd Rates (Oil, Gas, Wat):   13224.0    9684.5       5.4
+
+ BOAST3:  Step=   7  Time= 0.70000      Delt= 0.10000      ITER=   23
+          Field Prd Rates (Oil, Gas, Wat):   12974.6    9501.8       5.3
+
+ BOAST3:  Step=   8  Time= 0.80000      Delt= 0.10000      ITER=   23
+          Field Prd Rates (Oil, Gas, Wat):   12736.8    9327.6       5.2
+
+ BOAST3:  Step=   9  Time= 0.95000      Delt= 0.15000      ITER=   24
+          Field Prd Rates (Oil, Gas, Wat):   12407.1    9086.3       5.0
+
+ BOAST3:  Step=  10  Time=  1.0000      Delt= 0.50000E-01  ITER=   21
+          Field Prd Rates (Oil, Gas, Wat):   12338.5    9036.0       5.0
+
+ BOAST3:  Step=  11  Time=  1.1000      Delt= 0.10000      ITER=   23
+          Field Prd Rates (Oil, Gas, Wat):   12102.5    8863.1       4.9
+
+ BOAST3:  Step=  12  Time=  1.2500      Delt= 0.15000      ITER=   23
+          Field Prd Rates (Oil, Gas, Wat):   11790.3    8634.5       4.8
+
+ BOAST3:  Step=  13  Time=  1.4750      Delt= 0.22500      ITER=   24
+          Field Prd Rates (Oil, Gas, Wat):   11379.3    8333.5       4.6
+
+ BOAST3:  Step=  14  Time=  1.5750      Delt= 0.10000      ITER=   21
+          Field Prd Rates (Oil, Gas, Wat):   11232.0    8225.7       4.5
+
+ BOAST3:  Step=  15  Time=  1.7250      Delt= 0.15000      ITER=   22
+          Field Prd Rates (Oil, Gas, Wat):   11028.7    8076.8       4.4
+
+ BOAST3:  Step=  16  Time=  1.9500      Delt= 0.22500      ITER=   23
+          Field Prd Rates (Oil, Gas, Wat):   10708.4    7842.2       4.3
+
+ BOAST3:  Step=  17  Time=  2.2875      Delt= 0.33750      ITER=   23
+          Field Prd Rates (Oil, Gas, Wat):   10313.5    7553.0       4.1
+
+ BOAST3:  Step=  18  Time=  2.4141      Delt= 0.12656      ITER=   21
+          Field Prd Rates (Oil, Gas, Wat):   10219.2    7484.0       4.1
+
+ BOAST3:  Step=  19  Time=  2.6039      Delt= 0.18984      ITER=   22
+          Field Prd Rates (Oil, Gas, Wat):   10048.7    7359.1       4.0
+
+ BOAST3:  Step=  20  Time=  2.8887      Delt= 0.28477      ITER=   22
+          Field Prd Rates (Oil, Gas, Wat):    9802.3    7174.0       3.9
+
+ BOAST3:  Step=  21  Time=  3.3158      Delt= 0.42715      ITER=   22
+          Field Prd Rates (Oil, Gas, Wat):    9500.1    6944.4       3.8
+
+ BOAST3:  Step=  22  Time=  3.9565      Delt= 0.64072      ITER=   23
+          Field Prd Rates (Oil, Gas, Wat):    9165.0    6694.3       3.7
+
+ BOAST3:  Step=  23  Time=  4.9176      Delt= 0.96108      ITER=   22
+          Field Prd Rates (Oil, Gas, Wat):    8826.5    6444.8       3.6
+
+ BOAST3:  Step=  24  Time=  6.3593      Delt=  1.4416      ITER=   22
+          Field Prd Rates (Oil, Gas, Wat):    8513.0    6217.8       3.5
+
+ BOAST3:  Step=  25  Time=  8.5217      Delt=  2.1624      ITER=   23
+          Field Prd Rates (Oil, Gas, Wat):    8245.0    6030.4       3.4
+
+ BOAST3:  Step=  26  Time=  11.765      Delt=  3.2437      ITER=   25
+          Field Prd Rates (Oil, Gas, Wat):    7918.8    5807.1       3.4
+
+ BOAST3:  Step=  27  Time=  15.000      Delt=  3.2346      ITER=   25
+          Field Prd Rates (Oil, Gas, Wat):    7481.8    5541.1       3.4
+
+ BOAST3:  Step=  28  Time=  16.213      Delt=  1.2130      ITER=   21
+          Field Prd Rates (Oil, Gas, Wat):    7231.9    5421.4       3.4
+
+ BOAST3:  Step=  29  Time=  18.032      Delt=  1.8195      ITER=   22
+          Field Prd Rates (Oil, Gas, Wat):    7164.0    5391.5       3.4
+
+ BOAST3:  Step=  30  Time=  20.762      Delt=  2.7292      ITER=   23
+          Field Prd Rates (Oil, Gas, Wat):    7035.5    5328.8       3.4
+
+ BOAST3:  Step=  31  Time=  24.856      Delt=  4.0939      ITER=   25
+          Field Prd Rates (Oil, Gas, Wat):    6863.5    5254.2       3.4
+
+ BOAST3:  Step=  32  Time=  26.391      Delt=  1.5352      ITER=   21
+          Field Prd Rates (Oil, Gas, Wat):    6664.5    5178.5       3.4
+
+ BOAST3:  Step=  33  Time=  28.694      Delt=  2.3028      ITER=   22
+          Field Prd Rates (Oil, Gas, Wat):    6607.9    5153.8       3.4
+
+ BOAST3:  Step=  34  Time=  32.148      Delt=  3.4542      ITER=   24
+          Field Prd Rates (Oil, Gas, Wat):    6505.4    5108.0       3.4
+
+ BOAST3:  Step=  35  Time=  37.329      Delt=  5.1813      ITER=   26
+          Field Prd Rates (Oil, Gas, Wat):    6359.2    5042.2       3.3
+
+ BOAST3:  Step=  36  Time=  39.272      Delt=  1.9430      ITER=   22
+          Field Prd Rates (Oil, Gas, Wat):    6214.8    5002.9       3.3
+
+ BOAST3:  Step=  37  Time=  42.186      Delt=  2.9145      ITER=   23
+          Field Prd Rates (Oil, Gas, Wat):    6169.8    4982.1       3.3
+
+ BOAST3:  Step=  38  Time=  46.558      Delt=  4.3717      ITER=   25
+          Field Prd Rates (Oil, Gas, Wat):    6084.1    4943.3       3.3
+
+ BOAST3:  Step=  39  Time=  53.116      Delt=  6.5576      ITER=   25
+          Field Prd Rates (Oil, Gas, Wat):    5964.4    4885.1       3.3
+
+ BOAST3:  Step=  40  Time=  55.575      Delt=  2.4591      ITER=   22
+          Field Prd Rates (Oil, Gas, Wat):    5877.8    4856.2       3.3
+
+ BOAST3:  Step=  41  Time=  59.263      Delt=  3.6886      ITER=   23
+          Field Prd Rates (Oil, Gas, Wat):    5840.3    4834.8       3.3
+
+ BOAST3:  Step=  42  Time=  64.796      Delt=  5.5329      ITER=   25
+          Field Prd Rates (Oil, Gas, Wat):    5766.0    4794.8       3.2
+
+ BOAST3:  Step=  43  Time=  73.096      Delt=  8.2994      ITER=   26
+          Field Prd Rates (Oil, Gas, Wat):    5662.3    4733.5       3.2
+
+ BOAST3:  Step=  44  Time=  85.545      Delt=  12.449      ITER=   27
+          Field Prd Rates (Oil, Gas, Wat):    5523.8    4642.6       3.1
+
+ BOAST3:  Step=  45  Time=  100.54      Delt=  15.000      ITER=   27
+          Field Prd Rates (Oil, Gas, Wat):    5380.3    4539.8       3.1
+
+ BOAST3:  Step=  46  Time=  115.54      Delt=  15.000      ITER=   27
+          Field Prd Rates (Oil, Gas, Wat):    5258.3    4441.6       3.0
+
+ BOAST3:  Step=  47  Time=  130.54      Delt=  15.000      ITER=   27
+          Field Prd Rates (Oil, Gas, Wat):    5146.5    4346.7       2.9
+
+ BOAST3:  Step=  48  Time=  145.54      Delt=  15.000      ITER=   27
+          Field Prd Rates (Oil, Gas, Wat):    5039.1    4255.7       2.9
+
+ BOAST3:  Step=  49  Time=  160.54      Delt=  15.000      ITER=   27
+          Field Prd Rates (Oil, Gas, Wat):    4935.0    4167.9       2.8
+
+ BOAST3:  Step=  50  Time=  175.54      Delt=  15.000      ITER=   27
+          Field Prd Rates (Oil, Gas, Wat):    4832.9    4082.8       2.8
+
+ BOAST3:  Step=  51  Time=  180.00      Delt=  4.4550      ITER=   23
+          Field Prd Rates (Oil, Gas, Wat):    4815.1    4065.7       2.8
+
+ BOAST3:  Step=  52  Time=  186.68      Delt=  6.6826      ITER=   24
+          Field Prd Rates (Oil, Gas, Wat):    4766.8    4025.9       2.7
+
+ BOAST3:  Step=  53  Time=  196.71      Delt=  10.024      ITER=   26
+          Field Prd Rates (Oil, Gas, Wat):    4697.5    3969.3       2.7
+
+ BOAST3:  Step=  54  Time=  211.71      Delt=  15.000      ITER=   27
+          Field Prd Rates (Oil, Gas, Wat):    4597.1    3887.1       2.6
+
+ BOAST3:  Step=  55  Time=  226.71      Delt=  15.000      ITER=   27
+          Field Prd Rates (Oil, Gas, Wat):    4503.1    3811.5       2.6
+
+ BOAST3:  Step=  56  Time=  241.71      Delt=  15.000      ITER=   27
+          Field Prd Rates (Oil, Gas, Wat):    4414.1    3737.3       2.5
+
+ BOAST3:  Step=  57  Time=  256.71      Delt=  15.000      ITER=   27
+          Field Prd Rates (Oil, Gas, Wat):    4327.0    3665.4       2.5
+
+ BOAST3:  Step=  58  Time=  271.71      Delt=  15.000      ITER=   27
+          Field Prd Rates (Oil, Gas, Wat):    4243.2    3595.6       2.4
+
+ BOAST3:  Step=  59  Time=  286.71      Delt=  15.000      ITER=   27
+          Field Prd Rates (Oil, Gas, Wat):    4160.4    3527.6       2.4
+
+ BOAST3:  Step=  60  Time=  301.71      Delt=  15.000      ITER=   27
+          Field Prd Rates (Oil, Gas, Wat):    4080.6    3461.3       2.4
+
+ BOAST3:  Step=  61  Time=  316.71      Delt=  15.000      ITER=   27
+          Field Prd Rates (Oil, Gas, Wat):    4003.5    3396.6       2.3
+
+ BOAST3:  Step=  62  Time=  331.71      Delt=  15.000      ITER=   27
+          Field Prd Rates (Oil, Gas, Wat):    3929.1    3333.6       2.3
+
+ BOAST3:  Step=  63  Time=  346.71      Delt=  15.000      ITER=   27
+          Field Prd Rates (Oil, Gas, Wat):    3857.4    3272.4       2.2
+
+ BOAST3:  Step=  64  Time=  361.71      Delt=  15.000      ITER=   26
+          Field Prd Rates (Oil, Gas, Wat):    3788.1    3212.9       2.2
+
+ BOAST3:  Step=  65  Time=  365.00      Delt=  3.2936      ITER=   21
+          Field Prd Rates (Oil, Gas, Wat):    3779.9    3203.3       2.2
+
+ BOAST3:  Step=  66  Time=  369.94      Delt=  4.9404      ITER=   22
+          Field Prd Rates (Oil, Gas, Wat):    3755.6    3182.8       2.2
+
+ BOAST3:  Step=  67  Time=  377.35      Delt=  7.4106      ITER=   23
+          Field Prd Rates (Oil, Gas, Wat):    3721.3    3153.6       2.2
+
+ BOAST3:  Step=  68  Time=  388.47      Delt=  11.116      ITER=   25
+          Field Prd Rates (Oil, Gas, Wat):    3670.7    3110.7       2.1
+
+ BOAST3:  Step=  69  Time=  403.47      Delt=  15.000      ITER=   26
+          Field Prd Rates (Oil, Gas, Wat):    3605.1    3054.8       2.1
+
+ BOAST3:  Step=  70  Time=  418.47      Delt=  15.000      ITER=   26
+          Field Prd Rates (Oil, Gas, Wat):    3543.5    3001.7       2.1
+
+ BOAST3:  Step=  71  Time=  433.47      Delt=  15.000      ITER=   26
+          Field Prd Rates (Oil, Gas, Wat):    3483.5    2949.7       2.0
+
+ BOAST3:  Step=  72  Time=  448.47      Delt=  15.000      ITER=   26
+          Field Prd Rates (Oil, Gas, Wat):    3425.2    2899.0       2.0
+
+ BOAST3:  Step=  73  Time=  463.47      Delt=  15.000      ITER=   26
+          Field Prd Rates (Oil, Gas, Wat):    3368.7    2849.8       2.0
+
+ BOAST3:  Step=  74  Time=  478.47      Delt=  15.000      ITER=   26
+          Field Prd Rates (Oil, Gas, Wat):    3313.7    2801.9       1.9
+
+ BOAST3:  Step=  75  Time=  493.47      Delt=  15.000      ITER=   26
+          Field Prd Rates (Oil, Gas, Wat):    3259.9    2755.0       1.9
+
+ BOAST3:  Step=  76  Time=  508.47      Delt=  15.000      ITER=   26
+          Field Prd Rates (Oil, Gas, Wat):    3207.5    2709.3       1.9
+
+ BOAST3:  Step=  77  Time=  523.47      Delt=  15.000      ITER=   26
+          Field Prd Rates (Oil, Gas, Wat):    3157.1    2665.0       1.9
+
+ BOAST3:  Step=  78  Time=  538.47      Delt=  15.000      ITER=   26
+          Field Prd Rates (Oil, Gas, Wat):    3108.1    2622.0       1.8
+
+ BOAST3:  Step=  79  Time=  553.47      Delt=  15.000      ITER=   26
+          Field Prd Rates (Oil, Gas, Wat):    3060.2    2579.9       1.8
+
+ BOAST3:  Step=  80  Time=  568.47      Delt=  15.000      ITER=   25
+          Field Prd Rates (Oil, Gas, Wat):    3013.4    2538.7       1.8
+
+ BOAST3:  Step=  81  Time=  583.47      Delt=  15.000      ITER=   25
+          Field Prd Rates (Oil, Gas, Wat):    2967.9    2498.7       1.7
+
+ BOAST3:  Step=  82  Time=  598.47      Delt=  15.000      ITER=   25
+          Field Prd Rates (Oil, Gas, Wat):    2924.0    2459.9       1.7
+
+ BOAST3:  Step=  83  Time=  613.47      Delt=  15.000      ITER=   25
+          Field Prd Rates (Oil, Gas, Wat):    2881.3    2422.3       1.7
+
+ BOAST3:  Step=  84  Time=  628.47      Delt=  15.000      ITER=   25
+          Field Prd Rates (Oil, Gas, Wat):    2839.8    2385.7       1.7
+
+ BOAST3:  Step=  85  Time=  643.47      Delt=  15.000      ITER=   25
+          Field Prd Rates (Oil, Gas, Wat):    2799.4    2350.1       1.7
+
+ BOAST3:  Step=  86  Time=  658.47      Delt=  15.000      ITER=   25
+          Field Prd Rates (Oil, Gas, Wat):    2760.2    2315.5       1.6
+
+ BOAST3:  Step=  87  Time=  673.47      Delt=  15.000      ITER=   25
+          Field Prd Rates (Oil, Gas, Wat):    2722.4    2281.2       1.6
+
+ BOAST3:  Step=  88  Time=  688.47      Delt=  15.000      ITER=   25
+          Field Prd Rates (Oil, Gas, Wat):    2543.9    2162.9       1.6
+
+ BOAST3:  Step=  89  Time=  703.47      Delt=  15.000      ITER=   25
+          Field Prd Rates (Oil, Gas, Wat):    2441.9    2101.9       1.6
+
+ BOAST3:  Step=  90  Time=  718.47      Delt=  15.000      ITER=   25
+          Field Prd Rates (Oil, Gas, Wat):    2362.7    2053.3       1.6
+
+ BOAST3:  Step=  91  Time=  730.00      Delt=  11.533      ITER=   23
+          Field Prd Rates (Oil, Gas, Wat):    2311.6    2026.3       1.6
+
+ BOAST3:  Step=  92  Time=  745.00      Delt=  15.000      ITER=   27
+          Field Prd Rates (Oil, Gas, Wat):    2529.9    2119.8       1.5
+
+ BOAST3:  Step=  93  Time=  760.00      Delt=  15.000      ITER=   25
+          Field Prd Rates (Oil, Gas, Wat):    2343.0    1999.8       1.5
+
+ BOAST3:  Step=  94  Time=  775.00      Delt=  15.000      ITER=   24
+          Field Prd Rates (Oil, Gas, Wat):    2269.8    1958.7       1.5
+
+ BOAST3:  Step=  95  Time=  790.00      Delt=  15.000      ITER=   24
+          Field Prd Rates (Oil, Gas, Wat):    2163.5    1890.9       1.5
+
+ BOAST3:  Step=  96  Time=  805.00      Delt=  15.000      ITER=   24
+          Field Prd Rates (Oil, Gas, Wat):    2064.0    1832.8       1.5
+
+ BOAST3:  Step=  97  Time=  820.00      Delt=  15.000      ITER=   24
+          Field Prd Rates (Oil, Gas, Wat):    1969.4    1779.6       1.5
+
+ BOAST3:  Step=  98  Time=  835.00      Delt=  15.000      ITER=   26
+          Field Prd Rates (Oil, Gas, Wat):    1963.0    1775.3       1.4
+
+ BOAST3:  Step=  99  Time=  850.00      Delt=  15.000      ITER=   24
+          Field Prd Rates (Oil, Gas, Wat):    1947.2    1759.5       1.4
+
+ BOAST3:  Step= 100  Time=  865.00      Delt=  15.000      ITER=   24
+          Field Prd Rates (Oil, Gas, Wat):    1932.5    1742.7       1.4
+
+ BOAST3:  Step= 101  Time=  880.00      Delt=  15.000      ITER=   24
+          Field Prd Rates (Oil, Gas, Wat):    1806.8    1659.2       1.4
+
+ BOAST3:  Step= 102  Time=  895.00      Delt=  15.000      ITER=   24
+          Field Prd Rates (Oil, Gas, Wat):    1711.7    1603.1       1.4
+
+ BOAST3:  Step= 103  Time=  910.00      Delt=  15.000      ITER=   24
+          Field Prd Rates (Oil, Gas, Wat):    1614.3    1546.7       1.4
+
+ BOAST3:  Step= 104  Time=  925.00      Delt=  15.000      ITER=   24
+          Field Prd Rates (Oil, Gas, Wat):    1546.0    1510.0       1.4
+
+ BOAST3:  Step= 105  Time=  940.00      Delt=  15.000      ITER=   24
+          Field Prd Rates (Oil, Gas, Wat):    1492.7    1481.5       1.4
+
+ BOAST3:  Step= 106  Time=  955.00      Delt=  15.000      ITER=   24
+          Field Prd Rates (Oil, Gas, Wat):    1423.7    1440.8       1.4
+
+ BOAST3:  Step= 107  Time=  970.00      Delt=  15.000      ITER=   24
+          Field Prd Rates (Oil, Gas, Wat):    1447.6    1452.9       1.4
+
+ BOAST3:  Step= 108  Time=  985.00      Delt=  15.000      ITER=   23
+          Field Prd Rates (Oil, Gas, Wat):    1527.6    1488.1       1.4
+
+ BOAST3:  Step= 109  Time=  1000.0      Delt=  15.000      ITER=   23
+          Field Prd Rates (Oil, Gas, Wat):    1493.5    1459.3       1.3
+
+ BOAST3:  Step= 110  Time=  1015.0      Delt=  15.000      ITER=   23
+          Field Prd Rates (Oil, Gas, Wat):    1416.7    1414.3       1.3
+
+ BOAST3:  Step= 111  Time=  1030.0      Delt=  15.000      ITER=   23
+          Field Prd Rates (Oil, Gas, Wat):    1363.4    1385.7       1.3
+
+ BOAST3:  Step= 112  Time=  1045.0      Delt=  15.000      ITER=   23
+          Field Prd Rates (Oil, Gas, Wat):    1322.1    1364.0       1.3
+
+ BOAST3:  Step= 113  Time=  1060.0      Delt=  15.000      ITER=   23
+          Field Prd Rates (Oil, Gas, Wat):    1365.8    1383.8       1.3
+
+ BOAST3:  Step= 114  Time=  1075.0      Delt=  15.000      ITER=   23
+          Field Prd Rates (Oil, Gas, Wat):    1310.7    1348.1       1.3
+
+ BOAST3:  Step= 115  Time=  1090.0      Delt=  15.000      ITER=   23
+          Field Prd Rates (Oil, Gas, Wat):    1249.1    1311.3       1.3
+
+ BOAST3:  Step= 116  Time=  1095.0      Delt=  5.0000      ITER=   17
+          Field Prd Rates (Oil, Gas, Wat):    1211.3    1294.3       1.3
+
+ BOAST3:  Step= 117  Time=  1095.2      Delt= 0.15000      ITER=   15
+          Field Prd Rates (Oil, Gas, Wat):    1202.2    1290.7       1.3
+
+ BOAST3:  Step= 118  Time=  1095.4      Delt= 0.22500      ITER=   15
+          Field Prd Rates (Oil, Gas, Wat):    1201.9    1290.5       1.3
+
+ BOAST3:  Step= 119  Time=  1095.7      Delt= 0.33750      ITER=   15
+          Field Prd Rates (Oil, Gas, Wat):    1201.4    1290.2       1.3
+
+ BOAST3:  Step= 120  Time=  1096.2      Delt= 0.50625      ITER=   15
+          Field Prd Rates (Oil, Gas, Wat):    1200.7    1289.8       1.3
+
+ BOAST3:  Step= 121  Time=  1097.0      Delt= 0.75938      ITER=   14
+          Field Prd Rates (Oil, Gas, Wat):    1199.6    1289.2       1.3
+
+ BOAST3:  Step= 122  Time=  1098.1      Delt=  1.1391      ITER=   15
+          Field Prd Rates (Oil, Gas, Wat):    1197.9    1288.2       1.3
+
+ BOAST3:  Step= 123  Time=  1099.8      Delt=  1.7086      ITER=   15
+          Field Prd Rates (Oil, Gas, Wat):    1195.4    1286.7       1.3
+
+ BOAST3:  Step= 124  Time=  1102.4      Delt=  2.5629      ITER=   16
+          Field Prd Rates (Oil, Gas, Wat):    1191.7    1284.5       1.3
+
+ BOAST3:  Step= 125  Time=  1106.2      Delt=  3.8443      ITER=   17
+          Field Prd Rates (Oil, Gas, Wat):    1186.2    1281.2       1.3
+
+ BOAST3:  Step= 126  Time=  1112.0      Delt=  5.7665      ITER=   18
+          Field Prd Rates (Oil, Gas, Wat):    1178.2    1276.6       1.3
+
+ BOAST3:  Step= 127  Time=  1120.6      Delt=  8.6498      ITER=   20
+          Field Prd Rates (Oil, Gas, Wat):    1166.9    1269.9       1.3
+
+ BOAST3:  Step= 128  Time=  1133.6      Delt=  12.975      ITER=   22
+          Field Prd Rates (Oil, Gas, Wat):    1151.3    1260.2       1.3
+
+ BOAST3:  Step= 129  Time=  1148.6      Delt=  15.000      ITER=   23
+          Field Prd Rates (Oil, Gas, Wat):    1131.9    1248.4       1.3
+
+ BOAST3:  Step= 130  Time=  1163.6      Delt=  15.000      ITER=   23
+          Field Prd Rates (Oil, Gas, Wat):    1112.8    1236.5       1.3
+
+ BOAST3:  Step= 131  Time=  1178.6      Delt=  15.000      ITER=   23
+          Field Prd Rates (Oil, Gas, Wat):    1096.6    1226.5       1.3
+
+ BOAST3:  Step= 132  Time=  1193.6      Delt=  15.000      ITER=   23
+          Field Prd Rates (Oil, Gas, Wat):    1083.1    1218.0       1.3
+
+ BOAST3:  Step= 133  Time=  1208.6      Delt=  15.000      ITER=   22
+          Field Prd Rates (Oil, Gas, Wat):    1228.6    1285.2       1.2
+
+ BOAST3:  Step= 134  Time=  1223.6      Delt=  15.000      ITER=   22
+          Field Prd Rates (Oil, Gas, Wat):    1161.4    1237.3       1.2
+
+ BOAST3:  Step= 135  Time=  1238.6      Delt=  15.000      ITER=   23
+          Field Prd Rates (Oil, Gas, Wat):    1126.5    1216.4       1.2
+
+ BOAST3:  Step= 136  Time=  1253.6      Delt=  15.000      ITER=   22
+          Field Prd Rates (Oil, Gas, Wat):    1100.6    1201.3       1.2
+
+ BOAST3:  Step= 137  Time=  1268.6      Delt=  15.000      ITER=   22
+          Field Prd Rates (Oil, Gas, Wat):    1079.6    1188.2       1.2
+
+ BOAST3:  Step= 138  Time=  1283.6      Delt=  15.000      ITER=   22
+          Field Prd Rates (Oil, Gas, Wat):    1034.6    1158.0       1.2
+
+ BOAST3:  Step= 139  Time=  1298.6      Delt=  15.000      ITER=   22
+          Field Prd Rates (Oil, Gas, Wat):    1004.1    1139.3       1.2
+
+ BOAST3:  Step= 140  Time=  1313.6      Delt=  15.000      ITER=   22
+          Field Prd Rates (Oil, Gas, Wat):     980.5    1126.4       1.2
+
+ BOAST3:  Step= 141  Time=  1328.6      Delt=  15.000      ITER=   22
+          Field Prd Rates (Oil, Gas, Wat):     961.5    1116.0       1.2
+
+ BOAST3:  Step= 142  Time=  1343.6      Delt=  15.000      ITER=   22
+          Field Prd Rates (Oil, Gas, Wat):    1023.4    1143.0       1.2
+
+ BOAST3:  Step= 143  Time=  1358.6      Delt=  15.000      ITER=   22
+          Field Prd Rates (Oil, Gas, Wat):     981.1    1113.9       1.2
+
+ BOAST3:  Step= 144  Time=  1373.6      Delt=  15.000      ITER=   22
+          Field Prd Rates (Oil, Gas, Wat):     959.7    1101.8       1.2
+
+ BOAST3:  Step= 145  Time=  1388.6      Delt=  15.000      ITER=   22
+          Field Prd Rates (Oil, Gas, Wat):     943.3    1092.6       1.2
+
+ BOAST3:  Step= 146  Time=  1403.6      Delt=  15.000      ITER=   22
+          Field Prd Rates (Oil, Gas, Wat):     929.9    1084.4       1.2
+
+ BOAST3:  Step= 147  Time=  1418.6      Delt=  15.000      ITER=   22
+          Field Prd Rates (Oil, Gas, Wat):     918.9    1076.9       1.2
+
+ BOAST3:  Step= 148  Time=  1433.6      Delt=  15.000      ITER=   23
+          Field Prd Rates (Oil, Gas, Wat):     990.8    1109.1       1.2
+
+ BOAST3:  Step= 149  Time=  1448.6      Delt=  15.000      ITER=   22
+          Field Prd Rates (Oil, Gas, Wat):     981.8    1101.7       1.1
+
+ BOAST3:  Step= 150  Time=  1460.0      Delt=  11.376      ITER=   20
+          Field Prd Rates (Oil, Gas, Wat):     947.6    1078.5       1.1
+
+ BOAST3:  Step= 151  Time=  1475.0      Delt=  15.000      ITER=   22
+          Field Prd Rates (Oil, Gas, Wat):    1005.0    1102.5       1.1
+
+ BOAST3:  Step= 152  Time=  1490.0      Delt=  15.000      ITER=   22
+          Field Prd Rates (Oil, Gas, Wat):     956.3    1070.1       1.1
+
+ BOAST3:  Step= 153  Time=  1505.0      Delt=  15.000      ITER=   21
+          Field Prd Rates (Oil, Gas, Wat):     933.8    1057.7       1.1
+
+ BOAST3:  Step= 154  Time=  1520.0      Delt=  15.000      ITER=   21
+          Field Prd Rates (Oil, Gas, Wat):     915.6    1047.4       1.1
+
+ BOAST3:  Step= 155  Time=  1535.0      Delt=  15.000      ITER=   21
+          Field Prd Rates (Oil, Gas, Wat):     900.7    1038.4       1.1
+
+ BOAST3:  Step= 156  Time=  1550.0      Delt=  15.000      ITER=   21
+          Field Prd Rates (Oil, Gas, Wat):     888.4    1030.8       1.1
+
+ BOAST3:  Step= 157  Time=  1565.0      Delt=  15.000      ITER=   21
+          Field Prd Rates (Oil, Gas, Wat):     878.3    1024.8       1.1
+
+ BOAST3:  Step= 158  Time=  1580.0      Delt=  15.000      ITER=   20
+          Field Prd Rates (Oil, Gas, Wat):     870.0    1019.2       1.1
+
+ BOAST3:  Step= 159  Time=  1595.0      Delt=  15.000      ITER=   22
+          Field Prd Rates (Oil, Gas, Wat):     916.1    1035.5       1.1
+
+ BOAST3:  Step= 160  Time=  1610.0      Delt=  15.000      ITER=   20
+          Field Prd Rates (Oil, Gas, Wat):     867.0    1004.1       1.1
+
+ BOAST3:  Step= 161  Time=  1625.0      Delt=  15.000      ITER=   20
+          Field Prd Rates (Oil, Gas, Wat):     838.0     988.8       1.1
+
+ BOAST3:  Step= 162  Time=  1640.0      Delt=  15.000      ITER=   20
+          Field Prd Rates (Oil, Gas, Wat):     816.4     977.5       1.1
+
+ BOAST3:  Step= 163  Time=  1655.0      Delt=  15.000      ITER=   20
+          Field Prd Rates (Oil, Gas, Wat):     798.8     967.8       1.1
+
+ BOAST3:  Step= 164  Time=  1670.0      Delt=  15.000      ITER=   20
+          Field Prd Rates (Oil, Gas, Wat):     785.0     959.6       1.1
+
+ BOAST3:  Step= 165  Time=  1685.0      Delt=  15.000      ITER=   20
+          Field Prd Rates (Oil, Gas, Wat):     774.1     953.2       1.1
+
+ BOAST3:  Step= 166  Time=  1700.0      Delt=  15.000      ITER=   20
+          Field Prd Rates (Oil, Gas, Wat):     765.3     948.6       1.1
+
+ BOAST3:  Step= 167  Time=  1715.0      Delt=  15.000      ITER=   20
+          Field Prd Rates (Oil, Gas, Wat):     758.6     944.8       1.1
+
+ BOAST3:  Step= 168  Time=  1730.0      Delt=  15.000      ITER=   22
+          Field Prd Rates (Oil, Gas, Wat):     831.5     979.2       1.1
+
+ BOAST3:  Step= 169  Time=  1745.0      Delt=  15.000      ITER=   20
+          Field Prd Rates (Oil, Gas, Wat):     798.1     955.3       1.1
+
+ BOAST3:  Step= 170  Time=  1760.0      Delt=  15.000      ITER=   20
+          Field Prd Rates (Oil, Gas, Wat):     782.0     945.6       1.1
+
+ BOAST3:  Step= 171  Time=  1775.0      Delt=  15.000      ITER=   20
+          Field Prd Rates (Oil, Gas, Wat):     770.1     938.5       1.1
+
+ BOAST3:  Step= 172  Time=  1790.0      Delt=  15.000      ITER=   20
+          Field Prd Rates (Oil, Gas, Wat):     760.2     932.2       1.1
+
+ BOAST3:  Step= 173  Time=  1805.0      Delt=  15.000      ITER=   20
+          Field Prd Rates (Oil, Gas, Wat):     752.1     926.6       1.1
+
+ BOAST3:  Step= 174  Time=  1820.0      Delt=  15.000      ITER=   19
+          Field Prd Rates (Oil, Gas, Wat):     745.3     921.5       1.0
+
+ BOAST3:  Step= 175  Time=  1825.0      Delt=  5.0000      ITER=   15
+          Field Prd Rates (Oil, Gas, Wat):     740.6     918.8       1.0
+
+ BOAST3:  Step= 176  Time=  1832.5      Delt=  7.5000      ITER=   16
+          Field Prd Rates (Oil, Gas, Wat):     738.5     917.3       1.0
+
+ BOAST3:  Step= 177  Time=  1843.8      Delt=  11.250      ITER=   17
+          Field Prd Rates (Oil, Gas, Wat):     735.7     915.0       1.0
+
+ BOAST3:  Step= 178  Time=  1858.8      Delt=  15.000      ITER=   22
+          Field Prd Rates (Oil, Gas, Wat):     808.6     949.4       1.0
+
+ BOAST3:  Step= 179  Time=  1873.8      Delt=  15.000      ITER=   19
+          Field Prd Rates (Oil, Gas, Wat):     775.5     925.3       1.0
+
+ BOAST3:  Step= 180  Time=  1888.8      Delt=  15.000      ITER=   19
+          Field Prd Rates (Oil, Gas, Wat):     761.2     916.6       1.0
+
+ BOAST3:  Step= 181  Time=  1903.8      Delt=  15.000      ITER=   19
+          Field Prd Rates (Oil, Gas, Wat):     750.2     910.1       1.0
+
+ BOAST3:  Step= 182  Time=  1918.8      Delt=  15.000      ITER=   19
+          Field Prd Rates (Oil, Gas, Wat):     741.1     904.4       1.0
+
+ BOAST3:  Step= 183  Time=  1933.8      Delt=  15.000      ITER=   18
+          Field Prd Rates (Oil, Gas, Wat):     733.6     899.3       1.0
+
+ BOAST3:  Step= 184  Time=  1948.8      Delt=  15.000      ITER=   18
+          Field Prd Rates (Oil, Gas, Wat):     727.3     894.7       1.0
+
+ BOAST3:  Step= 185  Time=  1963.8      Delt=  15.000      ITER=   18
+          Field Prd Rates (Oil, Gas, Wat):     721.8     890.8       1.0
+
+ BOAST3:  Step= 186  Time=  1978.8      Delt=  15.000      ITER=   18
+          Field Prd Rates (Oil, Gas, Wat):     717.2     887.8       1.0
+
+ BOAST3:  Step= 187  Time=  1993.8      Delt=  15.000      ITER=   18
+          Field Prd Rates (Oil, Gas, Wat):     713.4     884.9       1.0
+
+ BOAST3:  Step= 188  Time=  2008.8      Delt=  15.000      ITER=   18
+          Field Prd Rates (Oil, Gas, Wat):     710.2     882.1       1.0
+
+ BOAST3:  Step= 189  Time=  2023.8      Delt=  15.000      ITER=   18
+          Field Prd Rates (Oil, Gas, Wat):     707.5     879.3       1.0
+
+ BOAST3:  Step= 190  Time=  2038.8      Delt=  15.000      ITER=   18
+          Field Prd Rates (Oil, Gas, Wat):     705.2     876.6       1.0
+
+ BOAST3:  Step= 191  Time=  2053.8      Delt=  15.000      ITER=   18
+          Field Prd Rates (Oil, Gas, Wat):     703.0     873.9       1.0
+
+ BOAST3:  Step= 192  Time=  2068.8      Delt=  15.000      ITER=   18
+          Field Prd Rates (Oil, Gas, Wat):     701.0     871.3       1.0
+
+ BOAST3:  Step= 193  Time=  2083.8      Delt=  15.000      ITER=   18
+          Field Prd Rates (Oil, Gas, Wat):     699.2     868.7       1.0
+
+ BOAST3:  Step= 194  Time=  2098.8      Delt=  15.000      ITER=   18
+          Field Prd Rates (Oil, Gas, Wat):     697.3     866.1       1.0
+
+ BOAST3:  Step= 195  Time=  2113.8      Delt=  15.000      ITER=   18
+          Field Prd Rates (Oil, Gas, Wat):     695.5     863.5       1.0
+
+ BOAST3:  Step= 196  Time=  2128.8      Delt=  15.000      ITER=   17
+          Field Prd Rates (Oil, Gas, Wat):     693.8     861.0       1.0
+
+ BOAST3:  Step= 197  Time=  2143.8      Delt=  15.000      ITER=   17
+          Field Prd Rates (Oil, Gas, Wat):     692.1     858.4       1.0
+
+ BOAST3:  Step= 198  Time=  2158.8      Delt=  15.000      ITER=   17
+          Field Prd Rates (Oil, Gas, Wat):     690.4     855.9       1.0
+
+ BOAST3:  Step= 199  Time=  2173.8      Delt=  15.000      ITER=   17
+          Field Prd Rates (Oil, Gas, Wat):     688.8     853.5       1.0
+
+ BOAST3:  Step= 200  Time=  2188.8      Delt=  15.000      ITER=   17
+          Field Prd Rates (Oil, Gas, Wat):     687.1     851.0       1.0
+
+ BOAST3:  Step= 201  Time=  2190.0      Delt=  1.2500      ITER=   10
+          Field Prd Rates (Oil, Gas, Wat):     686.8     850.3       1.0
+
+ BOAST3:  Step= 202  Time=  2191.9      Delt=  1.8750      ITER=   11
+          Field Prd Rates (Oil, Gas, Wat):     686.5     850.0       1.0
+
+ BOAST3:  Step= 203  Time=  2194.7      Delt=  2.8125      ITER=   12
+          Field Prd Rates (Oil, Gas, Wat):     682.7     847.0       1.0
+
+ BOAST3:  Step= 204  Time=  2198.9      Delt=  4.2188      ITER=   13
+          Field Prd Rates (Oil, Gas, Wat):     677.6     843.0       1.0
+
+ BOAST3:  Step= 205  Time=  2205.2      Delt=  6.3281      ITER=   16
+          Field Prd Rates (Oil, Gas, Wat):     670.0     837.0       1.0
+
+ BOAST3:  Step= 206  Time=  2214.7      Delt=  9.4922      ITER=   16
+          Field Prd Rates (Oil, Gas, Wat):     659.4     829.8       1.0
+
+ BOAST3:  Step= 207  Time=  2229.0      Delt=  14.238      ITER=   17
+          Field Prd Rates (Oil, Gas, Wat):     646.3     821.0       1.0
+
+ BOAST3:  Step= 208  Time=  2244.0      Delt=  15.000      ITER=   17
+          Field Prd Rates (Oil, Gas, Wat):     633.6     814.1       1.0
+
+ BOAST3:  Step= 209  Time=  2259.0      Delt=  15.000      ITER=   17
+          Field Prd Rates (Oil, Gas, Wat):     623.0     808.1       1.0
+
+ BOAST3:  Step= 210  Time=  2274.0      Delt=  15.000      ITER=   17
+          Field Prd Rates (Oil, Gas, Wat):     614.7     803.1       1.0
+
+ BOAST3:  Step= 211  Time=  2289.0      Delt=  15.000      ITER=   17
+          Field Prd Rates (Oil, Gas, Wat):     608.1     798.9       1.0
+
+ BOAST3:  Step= 212  Time=  2304.0      Delt=  15.000      ITER=   17
+          Field Prd Rates (Oil, Gas, Wat):     602.8     795.4       1.0
+
+ BOAST3:  Step= 213  Time=  2319.0      Delt=  15.000      ITER=   17
+          Field Prd Rates (Oil, Gas, Wat):     598.5     793.2       1.0
+
+ BOAST3:  Step= 214  Time=  2334.0      Delt=  15.000      ITER=   17
+          Field Prd Rates (Oil, Gas, Wat):     595.2     791.1       1.0
+
+ BOAST3:  Step= 215  Time=  2349.0      Delt=  15.000      ITER=   15
+          Field Prd Rates (Oil, Gas, Wat):     592.5     788.9       1.0
+
+ BOAST3:  Step= 216  Time=  2364.0      Delt=  15.000      ITER=   15
+          Field Prd Rates (Oil, Gas, Wat):     590.3     786.8       1.0
+
+ BOAST3:  Step= 217  Time=  2379.0      Delt=  15.000      ITER=   15
+          Field Prd Rates (Oil, Gas, Wat):     588.4     784.7       1.0
+
+ BOAST3:  Step= 218  Time=  2394.0      Delt=  15.000      ITER=   15
+          Field Prd Rates (Oil, Gas, Wat):     586.7     782.7       0.9
+
+ BOAST3:  Step= 219  Time=  2409.0      Delt=  15.000      ITER=   15
+          Field Prd Rates (Oil, Gas, Wat):     585.1     780.6       0.9
+
+ BOAST3:  Step= 220  Time=  2424.0      Delt=  15.000      ITER=   15
+          Field Prd Rates (Oil, Gas, Wat):     583.5     778.5       0.9
+
+ BOAST3:  Step= 221  Time=  2439.0      Delt=  15.000      ITER=   15
+          Field Prd Rates (Oil, Gas, Wat):     582.0     776.4       0.9
+
+ BOAST3:  Step= 222  Time=  2454.0      Delt=  15.000      ITER=   26
+          Field Prd Rates (Oil, Gas, Wat):     665.6     814.6       0.9
+
+ BOAST3:  Step= 223  Time=  2469.0      Delt=  15.000      ITER=   16
+          Field Prd Rates (Oil, Gas, Wat):     662.9     811.6       0.9
+
+ BOAST3:  Step= 224  Time=  2484.0      Delt=  15.000      ITER=   15
+          Field Prd Rates (Oil, Gas, Wat):     660.7     808.9       0.9
+
+ BOAST3:  Step= 225  Time=  2499.0      Delt=  15.000      ITER=   14
+          Field Prd Rates (Oil, Gas, Wat):     658.6     806.4       0.9
+
+ BOAST3:  Step= 226  Time=  2514.0      Delt=  15.000      ITER=   21
+          Field Prd Rates (Oil, Gas, Wat):     629.9     785.9       0.9
+
+ BOAST3:  Step= 227  Time=  2529.0      Delt=  15.000      ITER=   19
+          Field Prd Rates (Oil, Gas, Wat):     613.2     776.0       0.9
+
+ BOAST3:  Step= 228  Time=  2544.0      Delt=  15.000      ITER=   16
+          Field Prd Rates (Oil, Gas, Wat):     601.3     769.6       0.9
+
+ BOAST3:  Step= 229  Time=  2555.0      Delt=  11.035      ITER=   14
+          Field Prd Rates (Oil, Gas, Wat):     592.2     764.6       0.9
+
+ BOAST3:  Step= 230  Time=  2570.0      Delt=  15.000      ITER=   14
+          Field Prd Rates (Oil, Gas, Wat):     586.5     761.0       0.9
+
+ BOAST3:  Step= 231  Time=  2585.0      Delt=  15.000      ITER=   14
+          Field Prd Rates (Oil, Gas, Wat):     580.4     757.0       0.9
+
+ BOAST3:  Step= 232  Time=  2600.0      Delt=  15.000      ITER=   14
+          Field Prd Rates (Oil, Gas, Wat):     575.4     754.1       0.9
+
+ BOAST3:  Step= 233  Time=  2615.0      Delt=  15.000      ITER=   14
+          Field Prd Rates (Oil, Gas, Wat):     571.4     752.0       0.9
+
+ BOAST3:  Step= 234  Time=  2630.0      Delt=  15.000      ITER=   14
+          Field Prd Rates (Oil, Gas, Wat):     568.3     750.1       0.9
+
+ BOAST3:  Step= 235  Time=  2645.0      Delt=  15.000      ITER=   14
+          Field Prd Rates (Oil, Gas, Wat):     565.9     748.1       0.9
+
+ BOAST3:  Step= 236  Time=  2660.0      Delt=  15.000      ITER=   14
+          Field Prd Rates (Oil, Gas, Wat):     563.8     746.2       0.9
+
+ BOAST3:  Step= 237  Time=  2675.0      Delt=  15.000      ITER=   14
+          Field Prd Rates (Oil, Gas, Wat):     562.0     744.4       0.9
+
+ BOAST3:  Step= 238  Time=  2690.0      Delt=  15.000      ITER=   26
+          Field Prd Rates (Oil, Gas, Wat):     643.6     782.1       0.9
+
+ BOAST3:  Step= 239  Time=  2705.0      Delt=  15.000      ITER=   16
+          Field Prd Rates (Oil, Gas, Wat):     641.1     779.2       0.9
+
+ BOAST3:  Step= 240  Time=  2720.0      Delt=  15.000      ITER=   21
+          Field Prd Rates (Oil, Gas, Wat):     611.7     758.5       0.9
+
+ BOAST3:  Step= 241  Time=  2735.0      Delt=  15.000      ITER=   18
+          Field Prd Rates (Oil, Gas, Wat):     595.9     749.3       0.9
+
+ BOAST3:  Step= 242  Time=  2750.0      Delt=  15.000      ITER=   15
+          Field Prd Rates (Oil, Gas, Wat):     584.0     743.0       0.9
+
+ BOAST3:  Step= 243  Time=  2765.0      Delt=  15.000      ITER=   15
+          Field Prd Rates (Oil, Gas, Wat):     574.7     737.9       0.9
+
+ BOAST3:  Step= 244  Time=  2780.0      Delt=  15.000      ITER=   14
+          Field Prd Rates (Oil, Gas, Wat):     567.4     733.5       0.9
+
+ BOAST3:  Step= 245  Time=  2795.0      Delt=  15.000      ITER=   14
+          Field Prd Rates (Oil, Gas, Wat):     561.6     729.9       0.9
+
+ BOAST3:  Step= 246  Time=  2810.0      Delt=  15.000      ITER=   14
+          Field Prd Rates (Oil, Gas, Wat):     557.0     727.5       0.9
+
+ BOAST3:  Step= 247  Time=  2825.0      Delt=  15.000      ITER=   14
+          Field Prd Rates (Oil, Gas, Wat):     553.3     725.6       0.9
+
+ BOAST3:  Step= 248  Time=  2840.0      Delt=  15.000      ITER=   14
+          Field Prd Rates (Oil, Gas, Wat):     550.5     723.8       0.9
+
+ BOAST3:  Step= 249  Time=  2855.0      Delt=  15.000      ITER=   14
+          Field Prd Rates (Oil, Gas, Wat):     548.2     722.0       0.9
+
+ BOAST3:  Step= 250  Time=  2870.0      Delt=  15.000      ITER=   14
+          Field Prd Rates (Oil, Gas, Wat):     546.3     720.2       0.9
+
+ BOAST3:  Step= 251  Time=  2885.0      Delt=  15.000      ITER=   26
+          Field Prd Rates (Oil, Gas, Wat):     626.6     757.5       0.9
+
+ BOAST3:  Step= 252  Time=  2900.0      Delt=  15.000      ITER=   18
+          Field Prd Rates (Oil, Gas, Wat):     596.0     736.0       0.9
+
+ BOAST3:  Step= 253  Time=  2915.0      Delt=  15.000      ITER=   17
+          Field Prd Rates (Oil, Gas, Wat):     580.2     727.1       0.9
+
+ BOAST3:  Step= 254  Time=  2920.0      Delt=  5.0000      ITER=   14
+          Field Prd Rates (Oil, Gas, Wat):     569.8     722.2       0.9
+
+ BOAST3:  Step= 255  Time=  2927.5      Delt=  7.5000      ITER=   12
+          Field Prd Rates (Oil, Gas, Wat):     566.6     720.3       0.9
+
+ BOAST3:  Step= 256  Time=  2938.8      Delt=  11.250      ITER=   13
+          Field Prd Rates (Oil, Gas, Wat):     562.1     717.6       0.9
+
+ BOAST3:  Step= 257  Time=  2953.8      Delt=  15.000      ITER=   14
+          Field Prd Rates (Oil, Gas, Wat):     556.2     714.0       0.9
+
+ BOAST3:  Step= 258  Time=  2968.8      Delt=  15.000      ITER=   14
+          Field Prd Rates (Oil, Gas, Wat):     549.8     710.1       0.9
+
+ BOAST3:  Step= 259  Time=  2983.8      Delt=  15.000      ITER=   14
+          Field Prd Rates (Oil, Gas, Wat):     544.7     707.0       0.9
+
+ BOAST3:  Step= 260  Time=  2998.8      Delt=  15.000      ITER=   14
+          Field Prd Rates (Oil, Gas, Wat):     540.5     705.1       0.9
+
+ BOAST3:  Step= 261  Time=  3013.8      Delt=  15.000      ITER=   14
+          Field Prd Rates (Oil, Gas, Wat):     537.4     703.3       0.9
+
+ BOAST3:  Step= 262  Time=  3028.8      Delt=  15.000      ITER=   14
+          Field Prd Rates (Oil, Gas, Wat):     534.9     701.5       0.9
+
+ BOAST3:  Step= 263  Time=  3043.8      Delt=  15.000      ITER=   23
+          Field Prd Rates (Oil, Gas, Wat):     613.1     738.1       0.9
+
+ BOAST3:  Step= 264  Time=  3058.8      Delt=  15.000      ITER=   19
+          Field Prd Rates (Oil, Gas, Wat):     581.5     715.9       0.9
+
+ BOAST3:  Step= 265  Time=  3073.8      Delt=  15.000      ITER=   17
+          Field Prd Rates (Oil, Gas, Wat):     566.8     707.8       0.9
+
+ BOAST3:  Step= 266  Time=  3088.8      Delt=  15.000      ITER=   15
+          Field Prd Rates (Oil, Gas, Wat):     556.3     702.5       0.9
+
+ BOAST3:  Step= 267  Time=  3103.8      Delt=  15.000      ITER=   15
+          Field Prd Rates (Oil, Gas, Wat):     547.9     697.9       0.9
+
+ BOAST3:  Step= 268  Time=  3118.8      Delt=  15.000      ITER=   14
+          Field Prd Rates (Oil, Gas, Wat):     541.1     694.0       0.9
+
+ BOAST3:  Step= 269  Time=  3133.8      Delt=  15.000      ITER=   14
+          Field Prd Rates (Oil, Gas, Wat):     535.5     690.5       0.9
+
+ BOAST3:  Step= 270  Time=  3148.8      Delt=  15.000      ITER=   14
+          Field Prd Rates (Oil, Gas, Wat):     530.6     687.9       0.9
+
+ BOAST3:  Step= 271  Time=  3163.8      Delt=  15.000      ITER=   14
+          Field Prd Rates (Oil, Gas, Wat):     526.8     686.0       0.9
+
+ BOAST3:  Step= 272  Time=  3178.8      Delt=  15.000      ITER=   14
+          Field Prd Rates (Oil, Gas, Wat):     523.8     684.2       0.9
+
+ BOAST3:  Step= 273  Time=  3193.8      Delt=  15.000      ITER=   14
+          Field Prd Rates (Oil, Gas, Wat):     521.4     682.5       0.8
+
+ BOAST3:  Step= 274  Time=  3208.8      Delt=  15.000      ITER=   23
+          Field Prd Rates (Oil, Gas, Wat):     599.1     718.5       0.8
+
+ BOAST3:  Step= 275  Time=  3223.8      Delt=  15.000      ITER=   19
+          Field Prd Rates (Oil, Gas, Wat):     566.4     695.5       0.8
+
+ BOAST3:  Step= 276  Time=  3238.8      Delt=  15.000      ITER=   16
+          Field Prd Rates (Oil, Gas, Wat):     552.6     688.0       0.8
+
+ BOAST3:  Step= 277  Time=  3253.8      Delt=  15.000      ITER=   15
+          Field Prd Rates (Oil, Gas, Wat):     542.3     682.8       0.8
+
+ BOAST3:  Step= 278  Time=  3268.8      Delt=  15.000      ITER=   15
+          Field Prd Rates (Oil, Gas, Wat):     534.0     678.4       0.8
+
+ BOAST3:  Step= 279  Time=  3283.8      Delt=  15.000      ITER=   14
+          Field Prd Rates (Oil, Gas, Wat):     527.2     674.5       0.8
+
+ BOAST3:  Step= 280  Time=  3285.0      Delt=  1.2500      ITER=    8
+          Field Prd Rates (Oil, Gas, Wat):     522.4     672.1       0.8
+
+ BOAST3:  Step= 281  Time=  3286.9      Delt=  1.8750      ITER=    9
+          Field Prd Rates (Oil, Gas, Wat):     522.0     671.8       0.8
+
+ BOAST3:  Step= 282  Time=  3289.7      Delt=  2.8125      ITER=   10
+          Field Prd Rates (Oil, Gas, Wat):     521.4     671.4       0.8
+
+ BOAST3:  Step= 283  Time=  3293.9      Delt=  4.2188      ITER=   10
+          Field Prd Rates (Oil, Gas, Wat):     520.5     670.8       0.8
+
+ BOAST3:  Step= 284  Time=  3300.2      Delt=  6.3281      ITER=   12
+          Field Prd Rates (Oil, Gas, Wat):     519.2     669.8       0.8
+
+ BOAST3:  Step= 285  Time=  3309.7      Delt=  9.4922      ITER=   12
+          Field Prd Rates (Oil, Gas, Wat):     517.3     668.7       0.8
+
+ BOAST3:  Step= 286  Time=  3324.0      Delt=  14.238      ITER=   14
+          Field Prd Rates (Oil, Gas, Wat):     514.5     667.1       0.8
+
+ BOAST3:  Step= 287  Time=  3339.0      Delt=  15.000      ITER=   14
+          Field Prd Rates (Oil, Gas, Wat):     511.3     665.3       0.8
+
+ BOAST3:  Step= 288  Time=  3354.0      Delt=  15.000      ITER=   14
+          Field Prd Rates (Oil, Gas, Wat):     508.5     663.5       0.8
+
+ BOAST3:  Step= 289  Time=  3369.0      Delt=  15.000      ITER=   14
+          Field Prd Rates (Oil, Gas, Wat):     506.1     661.8       0.8
+
+ BOAST3:  Step= 290  Time=  3384.0      Delt=  15.000      ITER=   14
+          Field Prd Rates (Oil, Gas, Wat):     504.2     660.0       0.8
+
+ BOAST3:  Step= 291  Time=  3399.0      Delt=  15.000      ITER=   14
+          Field Prd Rates (Oil, Gas, Wat):     502.4     658.3       0.8
+
+ BOAST3:  Step= 292  Time=  3414.0      Delt=  15.000      ITER=   14
+          Field Prd Rates (Oil, Gas, Wat):     500.8     656.5       0.8
+
+ BOAST3:  Step= 293  Time=  3429.0      Delt=  15.000      ITER=   14
+          Field Prd Rates (Oil, Gas, Wat):     499.2     654.8       0.8
+
+ BOAST3:  Step= 294  Time=  3444.0      Delt=  15.000      ITER=   14
+          Field Prd Rates (Oil, Gas, Wat):     497.7     653.0       0.8
+
+ BOAST3:  Step= 295  Time=  3459.0      Delt=  15.000      ITER=   14
+          Field Prd Rates (Oil, Gas, Wat):     496.3     651.3       0.8
+
+ BOAST3:  Step= 296  Time=  3474.0      Delt=  15.000      ITER=   14
+          Field Prd Rates (Oil, Gas, Wat):     495.0     649.5       0.8
+
+ BOAST3:  Step= 297  Time=  3489.0      Delt=  15.000      ITER=   14
+          Field Prd Rates (Oil, Gas, Wat):     493.6     647.8       0.8
+
+ BOAST3:  Step= 298  Time=  3504.0      Delt=  15.000      ITER=   14
+          Field Prd Rates (Oil, Gas, Wat):     492.3     646.0       0.8
+
+ BOAST3:  Step= 299  Time=  3519.0      Delt=  15.000      ITER=   14
+          Field Prd Rates (Oil, Gas, Wat):     491.0     644.3       0.8
+
+ BOAST3:  Step= 300  Time=  3534.0      Delt=  15.000      ITER=   14
+          Field Prd Rates (Oil, Gas, Wat):     489.7     642.6       0.8
+
+ BOAST3:  Step= 301  Time=  3549.0      Delt=  15.000      ITER=   14
+          Field Prd Rates (Oil, Gas, Wat):     488.4     640.9       0.8
+
+ BOAST3:  Step= 302  Time=  3564.0      Delt=  15.000      ITER=   14
+          Field Prd Rates (Oil, Gas, Wat):     487.1     639.2       0.8
+
+ BOAST3:  Step= 303  Time=  3579.0      Delt=  15.000      ITER=   14
+          Field Prd Rates (Oil, Gas, Wat):     485.8     637.5       0.8
+
+ BOAST3:  Step= 304  Time=  3594.0      Delt=  15.000      ITER=   14
+          Field Prd Rates (Oil, Gas, Wat):     484.6     635.8       0.8
+
+ BOAST3:  Step= 305  Time=  3609.0      Delt=  15.000      ITER=   14
+          Field Prd Rates (Oil, Gas, Wat):     483.3     634.1       0.8
+
+ BOAST3:  Step= 306  Time=  3624.0      Delt=  15.000      ITER=   14
+          Field Prd Rates (Oil, Gas, Wat):     482.0     632.4       0.8
+
+ BOAST3:  Step= 307  Time=  3639.0      Delt=  15.000      ITER=   14
+          Field Prd Rates (Oil, Gas, Wat):     480.7     630.7       0.8
+
+ BOAST3:  Step= 308  Time=  3650.0      Delt=  11.035      ITER=   13
+          Field Prd Rates (Oil, Gas, Wat):     479.6     629.3       0.8
+
+                                                  *****************************
+                                                  *  TOTAL    RUN    SUMMARY  *
+                                                  *****************************
+
+     TIME STEP              PRODUCTION                   INJECTION     PV WT AQUIFER INFLUX      CUM PRODUCTION       CUM INJECTION
+    ---------- ------------------------------------- ----------------   AVG  -------------- ------------------------ ---------------
+                  OIL     GAS     WATER    GOR   WATER   GAS   WATER    RES   RATE    CUM     OIL     GAS    WATER    GAS    WATER
+                                         SCF/  /OIL                    PRES
+     NO.  DAYS   STB/D  MSCF/D   STB/D   STB   RATIO  MSCF/D   STB/D   PSIA  MSTB/D  MMSTB    MSTB   MMSCF   MSTB    MMSCF   MSTB
+    ---- ----- -------- ------- ------- ------ ----- -------- ------- ------ ------ ------- ------- ------- ------- ------- -------
+      1     0.   14783.  10826.     6.1   732.   0.0       0.      0.  5614.    0.0      0.      1.      1.      0.      0.      0.
+      2     0.   14442.  10576.     6.0   732.   0.0       0.      0.  5614.    0.0      0.      3.      2.      0.      0.      0.
+      3     0.   14118.  10339.     5.8   732.   0.0       0.      0.  5614.    0.0      0.      4.      3.      0.      0.      0.
+      4     0.   13811.  10114.     5.7   732.   0.0       0.      0.  5614.    0.0      0.      6.      4.      0.      0.      0.
+      5     1.   13486.   9877.     5.6   732.   0.0       0.      0.  5614.    0.0      0.      7.      5.      0.      0.      0.
+      6     1.   13224.   9685.     5.4   732.   0.0       0.      0.  5614.    0.0      0.      8.      6.      0.      0.      0.
+      7     1.   12975.   9502.     5.3   732.   0.0       0.      0.  5614.    0.0      0.     10.      7.      0.      0.      0.
+      8     1.   12737.   9328.     5.2   732.   0.0       0.      0.  5614.    0.0      0.     11.      8.      0.      0.      0.
+      9     1.   12407.   9086.     5.0   732.   0.0       0.      0.  5614.    0.0      0.     13.      9.      0.      0.      0.
+     10     1.   12338.   9036.     5.0   732.   0.0       0.      0.  5614.    0.0      0.     13.     10.      0.      0.      0.
+     11     1.   12102.   8863.     4.9   732.   0.0       0.      0.  5614.    0.0      0.     15.     11.      0.      0.      0.
+     12     1.   11790.   8635.     4.8   732.   0.0       0.      0.  5614.    0.0      0.     16.     12.      0.      0.      0.
+     13     1.   11379.   8334.     4.6   732.   0.0       0.      0.  5614.    0.0      0.     19.     14.      0.      0.      0.
+     14     2.   11232.   8226.     4.5   732.   0.0       0.      0.  5614.    0.0      0.     20.     15.      0.      0.      0.
+     15     2.   11029.   8077.     4.4   732.   0.0       0.      0.  5614.    0.0      0.     22.     16.      0.      0.      0.
+     16     2.   10708.   7842.     4.3   732.   0.0       0.      0.  5614.    0.0      0.     24.     18.      0.      0.      0.
+     17     2.   10314.   7553.     4.1   732.   0.0       0.      0.  5614.    0.0      0.     28.     20.      0.      0.      0.
+     18     2.   10219.   7484.     4.1   732.   0.0       0.      0.  5614.    0.0      0.     29.     21.      0.      0.      0.
+     19     3.   10049.   7359.     4.0   732.   0.0       0.      0.  5614.    0.0      0.     31.     23.      0.      0.      0.
+     20     3.    9802.   7174.     3.9   732.   0.0       0.      0.  5614.    0.0      0.     34.     25.      0.      0.      0.
+     21     3.    9500.   6944.     3.8   731.   0.0       0.      0.  5614.    0.0      0.     38.     28.      0.      0.      0.
+     22     4.    9165.   6694.     3.7   730.   0.0       0.      0.  5614.    0.0      0.     44.     32.      0.      0.      0.
+     23     5.    8827.   6445.     3.6   730.   0.0       0.      0.  5614.    0.0      0.     52.     38.      0.      0.      0.
+     24     6.    8513.   6218.     3.5   730.   0.0       0.      0.  5613.    0.0      0.     64.     47.      0.      0.      0.
+     25     9.    8245.   6030.     3.4   731.   0.0       0.      0.  5613.    0.0      0.     82.     60.      0.      0.      0.
+     26    12.    7919.   5807.     3.4   733.   0.0       0.      0.  5613.    0.0      0.    108.     79.      0.      0.      0.
+     27    15.    7482.   5541.     3.4   741.   0.0       0.      0.  5612.    0.0      0.    132.     97.      0.      0.      0.
+     28    16.    7232.   5421.     3.4   750.   0.0       0.      0.  5612.    0.0      0.    141.    103.      0.      0.      0.
+     29    18.    7164.   5392.     3.4   753.   0.0       0.      0.  5612.    0.0      0.    154.    113.      0.      0.      0.
+     30    21.    7036.   5329.     3.4   757.   0.0       0.      0.  5611.    0.0      0.    173.    128.      0.      0.      0.
+     31    25.    6863.   5254.     3.4   766.   0.0       0.      0.  5611.    0.0      0.    201.    149.      0.      0.      0.
+     32    26.    6665.   5179.     3.4   777.   0.0       0.      0.  5611.    0.0      0.    211.    157.      0.      0.      0.
+     33    29.    6608.   5154.     3.4   780.   0.0       0.      0.  5610.    0.0      0.    227.    169.      0.      0.      0.
+     34    32.    6505.   5108.     3.4   785.   0.0       0.      0.  5610.    0.0      0.    249.    187.      0.      0.      0.
+     35    37.    6359.   5042.     3.3   793.   0.0       0.      0.  5609.    0.0      0.    282.    213.      0.      0.      0.
+     36    39.    6215.   5003.     3.3   805.   0.0       0.      0.  5609.    0.0      0.    294.    223.      0.      0.      0.
+     37    42.    6170.   4982.     3.3   807.   0.0       0.      0.  5609.    0.0      0.    312.    237.      0.      0.      0.
+     38    47.    6084.   4943.     3.3   812.   0.0       0.      0.  5608.    0.0      0.    339.    259.      0.      0.      0.
+     39    53.    5964.   4885.     3.3   819.   0.0       0.      0.  5607.    0.0      0.    378.    291.      0.      0.      0.
+     40    56.    5878.   4856.     3.3   826.   0.0       0.      0.  5607.    0.0      0.    392.    303.      0.      0.      0.
+     41    59.    5840.   4835.     3.3   828.   0.0       0.      0.  5606.    0.0      0.    414.    321.      0.      0.      0.
+     42    65.    5766.   4795.     3.2   832.   0.0       0.      0.  5606.    0.0      0.    446.    347.      0.      0.      0.
+     43    73.    5662.   4734.     3.2   836.   0.0       0.      0.  5605.    0.0      0.    493.    386.      0.      0.      0.
+     44    86.    5524.   4643.     3.1   840.   0.0       0.      0.  5603.    0.0      0.    561.    444.      0.      0.      0.
+     45   101.    5380.   4540.     3.1   844.   0.0       0.      0.  5602.    0.0      0.    642.    512.      0.      0.      0.
+     46   116.    5258.   4442.     3.0   845.   0.0       0.      0.  5600.    0.0      0.    721.    579.      0.      0.      0.
+     47   131.    5146.   4347.     2.9   845.   0.0       0.      0.  5599.    0.0      0.    798.    644.      0.      0.      0.
+     48   146.    5039.   4256.     2.9   845.   0.0       0.      0.  5597.    0.0      0.    874.    708.      0.      0.      0.
+     49   161.    4935.   4168.     2.8   845.   0.0       0.      0.  5595.    0.0      0.    948.    770.      1.      0.      0.
+     50   176.    4833.   4083.     2.8   845.   0.0       0.      0.  5594.    0.0      0.   1020.    832.      1.      0.      0.
+     51   180.    4815.   4066.     2.8   844.   0.0       0.      0.  5594.    0.0      0.   1042.    850.      1.      0.      0.
+     52   187.    4767.   4026.     2.7   845.   0.0       0.      0.  5593.    0.0      0.   1074.    877.      1.      0.      0.
+     53   197.    4698.   3969.     2.7   845.   0.0       0.      0.  5592.    0.0      0.   1121.    916.      1.      0.      0.
+     54   212.    4597.   3887.     2.6   846.   0.0       0.      0.  5590.    0.0      0.   1190.    975.      1.      0.      0.
+     55   227.    4503.   3811.     2.6   846.   0.0       0.      0.  5589.    0.0      0.   1257.   1032.      1.      0.      0.
+     56   242.    4414.   3737.     2.5   847.   0.0       0.      0.  5588.    0.0      0.   1323.   1088.      1.      0.      0.
+     57   257.    4327.   3665.     2.5   847.   0.0       0.      0.  5586.    0.0      0.   1388.   1143.      1.      0.      0.
+     58   272.    4243.   3596.     2.4   847.   0.0       0.      0.  5585.    0.0      0.   1452.   1197.      1.      0.      0.
+     59   287.    4160.   3528.     2.4   848.   0.0       0.      0.  5584.    0.0      0.   1514.   1250.      1.      0.      0.
+     60   302.    4081.   3461.     2.4   848.   0.0       0.      0.  5583.    0.0      0.   1576.   1302.      1.      0.      0.
+     61   317.    4004.   3397.     2.3   848.   0.0       0.      0.  5581.    0.0      0.   1636.   1353.      1.      0.      0.
+     62   332.    3929.   3334.     2.3   848.   0.0       0.      0.  5580.    0.0      0.   1695.   1403.      1.      0.      0.
+     63   347.    3857.   3272.     2.2   848.   0.0       0.      0.  5579.    0.0      0.   1752.   1452.      1.      0.      0.
+     64   362.    3788.   3213.     2.2   848.   0.0       0.      0.  5578.    0.0      0.   1809.   1500.      1.      0.      0.
+     65   365.    3780.   3203.     2.2   847.   0.0       0.      0.  5578.    0.0      0.   1822.   1511.      1.      0.      0.
+     66   370.    3756.   3183.     2.2   847.   0.0       0.      0.  5577.    0.0      0.   1840.   1526.      1.      0.      0.
+     67   377.    3721.   3154.     2.2   847.   0.0       0.      0.  5577.    0.0      0.   1868.   1550.      1.      0.      0.
+     68   388.    3671.   3111.     2.1   847.   0.0       0.      0.  5576.    0.0      0.   1909.   1584.      1.      0.      0.
+     69   403.    3605.   3055.     2.1   847.   0.0       0.      0.  5575.    0.0      0.   1963.   1630.      1.      0.      0.
+     70   418.    3543.   3002.     2.1   847.   0.0       0.      0.  5574.    0.0      0.   2016.   1675.      1.      0.      0.
+     71   433.    3484.   2950.     2.0   847.   0.0       0.      0.  5573.    0.0      0.   2068.   1719.      1.      0.      0.
+     72   448.    3425.   2899.     2.0   846.   0.0       0.      0.  5572.    0.0      0.   2120.   1763.      1.      0.      0.
+     73   463.    3369.   2850.     2.0   846.   0.0       0.      0.  5571.    0.0      0.   2170.   1806.      1.      0.      0.
+     74   478.    3314.   2802.     1.9   846.   0.0       0.      0.  5570.    0.0      0.   2220.   1848.      1.      0.      0.
+     75   493.    3260.   2755.     1.9   845.   0.0       0.      0.  5569.    0.0      0.   2269.   1889.      1.      0.      0.
+     76   508.    3207.   2709.     1.9   845.   0.0       0.      0.  5568.    0.0      0.   2317.   1930.      1.      0.      0.
+     77   523.    3157.   2665.     1.9   844.   0.0       0.      0.  5567.    0.0      0.   2364.   1969.      1.      0.      0.
+     78   538.    3108.   2622.     1.8   844.   0.0       0.      0.  5566.    0.0      0.   2411.   2009.      1.      0.      0.
+     79   553.    3060.   2580.     1.8   843.   0.0       0.      0.  5565.    0.0      0.   2457.   2048.      1.      0.      0.
+     80   568.    3013.   2539.     1.8   842.   0.0       0.      0.  5564.    0.0      0.   2502.   2086.      1.      0.      0.
+     81   583.    2968.   2499.     1.7   842.   0.0       0.      0.  5563.    0.0      0.   2546.   2123.      1.      0.      0.
+     82   598.    2924.   2460.     1.7   841.   0.0       0.      0.  5562.    0.0      0.   2590.   2160.      1.      0.      0.
+     83   613.    2881.   2422.     1.7   841.   0.0       0.      0.  5562.    0.0      0.   2633.   2196.      1.      0.      0.
+     84   628.    2840.   2386.     1.7   840.   0.0       0.      0.  5561.    0.0      0.   2676.   2232.      2.      0.      0.
+     85   643.    2799.   2350.     1.7   840.   0.0       0.      0.  5560.    0.0      0.   2718.   2267.      2.      0.      0.
+     86   658.    2760.   2316.     1.6   839.   0.0       0.      0.  5559.    0.0      0.   2759.   2302.      2.      0.      0.
+     87   673.    2722.   2281.     1.6   838.   0.0       0.      0.  5559.    0.0      0.   2800.   2336.      2.      0.      0.
+     88   688.    2544.   2163.     1.6   850.   0.0       0.      0.  5558.    0.0      0.   2838.   2369.      2.      0.      0.
+     89   703.    2442.   2102.     1.6   861.   0.0       0.      0.  5557.    0.0      0.   2875.   2400.      2.      0.      0.
+     90   718.    2363.   2053.     1.6   869.   0.0       0.      0.  5556.    0.0      0.   2910.   2431.      2.      0.      0.
+     91   730.    2312.   2026.     1.6   877.   0.0       0.      0.  5556.    0.0      0.   2937.   2454.      2.      0.      0.
+     92   745.    2530.   2120.     1.5   838.   0.0       0.      0.  5555.    0.0      0.   2975.   2486.      2.      0.      0.
+     93   760.    2343.   2000.     1.5   854.   0.0       0.      0.  5555.    0.0      0.   3010.   2516.      2.      0.      0.
+     94   775.    2270.   1959.     1.5   863.   0.0       0.      0.  5554.    0.0      0.   3044.   2546.      2.      0.      0.
+     95   790.    2163.   1891.     1.5   874.   0.0       0.      0.  5553.    0.0      0.   3077.   2574.      2.      0.      0.
+     96   805.    2064.   1833.     1.5   888.   0.0       0.      0.  5553.    0.0      0.   3108.   2601.      2.      0.      0.
+     97   820.    1969.   1780.     1.5   904.   0.0       0.      0.  5552.    0.0      0.   3137.   2628.      2.      0.      0.
+     98   835.    1963.   1775.     1.4   904.   0.0       0.      0.  5552.    0.0      0.   3167.   2655.      2.      0.      0.
+     99   850.    1947.   1759.     1.4   904.   0.0       0.      0.  5551.    0.0      0.   3196.   2681.      2.      0.      0.
+    100   865.    1932.   1743.     1.4   902.   0.0       0.      0.  5550.    0.0      0.   3225.   2707.      2.      0.      0.
+    101   880.    1807.   1659.     1.4   918.   0.0       0.      0.  5550.    0.0      0.   3252.   2732.      2.      0.      0.
+    102   895.    1712.   1603.     1.4   937.   0.0       0.      0.  5549.    0.0      0.   3278.   2756.      2.      0.      0.
+    103   910.    1614.   1547.     1.4   958.   0.0       0.      0.  5549.    0.0      0.   3302.   2779.      2.      0.      0.
+    104   925.    1546.   1510.     1.4   977.   0.0       0.      0.  5548.    0.0      0.   3325.   2802.      2.      0.      0.
+    105   940.    1493.   1481.     1.4   993.   0.0       0.      0.  5548.    0.0      0.   3347.   2824.      2.      0.      0.
+    106   955.    1424.   1441.     1.4  1012.   0.0       0.      0.  5547.    0.0      0.   3369.   2846.      2.      0.      0.
+    107   970.    1448.   1453.     1.4  1004.   0.0       0.      0.  5547.    0.0      0.   3391.   2868.      2.      0.      0.
+    108   985.    1528.   1488.     1.4   974.   0.0       0.      0.  5547.    0.0      0.   3413.   2890.      2.      0.      0.
+    109  1000.    1494.   1459.     1.3   977.   0.0       0.      0.  5546.    0.0      0.   3436.   2912.      2.      0.      0.
+    110  1015.    1417.   1414.     1.3   998.   0.0       0.      0.  5546.    0.0      0.   3457.   2933.      2.      0.      0.
+    111  1030.    1363.   1386.     1.3  1016.   0.0       0.      0.  5545.    0.0      0.   3478.   2954.      2.      0.      0.
+    112  1045.    1322.   1364.     1.3  1032.   0.0       0.      0.  5545.    0.0      0.   3497.   2974.      2.      0.      0.
+    113  1060.    1366.   1384.     1.3  1013.   0.0       0.      0.  5544.    0.0      0.   3518.   2995.      2.      0.      0.
+    114  1075.    1311.   1348.     1.3  1029.   0.0       0.      0.  5544.    0.0      0.   3538.   3015.      2.      0.      0.
+    115  1090.    1249.   1311.     1.3  1050.   0.0       0.      0.  5544.    0.0      0.   3556.   3035.      2.      0.      0.
+    116  1095.    1211.   1294.     1.3  1068.   0.0       0.      0.  5544.    0.0      0.   3562.   3042.      2.      0.      0.
+    117  1095.    1202.   1291.     1.3  1074.   0.0       0.      0.  5544.    0.0      0.   3562.   3042.      2.      0.      0.
+    118  1095.    1202.   1291.     1.3  1074.   0.0       0.      0.  5544.    0.0      0.   3563.   3042.      2.      0.      0.
+    119  1096.    1201.   1290.     1.3  1074.   0.0       0.      0.  5544.    0.0      0.   3563.   3042.      2.      0.      0.
+    120  1096.    1201.   1290.     1.3  1074.   0.0       0.      0.  5544.    0.0      0.   3564.   3043.      2.      0.      0.
+    121  1097.    1200.   1289.     1.3  1075.   0.0       0.      0.  5543.    0.0      0.   3565.   3044.      2.      0.      0.
+    122  1098.    1198.   1288.     1.3  1075.   0.0       0.      0.  5543.    0.0      0.   3566.   3046.      2.      0.      0.
+    123  1100.    1195.   1287.     1.3  1076.   0.0       0.      0.  5543.    0.0      0.   3568.   3048.      2.      0.      0.
+    124  1102.    1192.   1285.     1.3  1078.   0.0       0.      0.  5543.    0.0      0.   3571.   3051.      2.      0.      0.
+    125  1106.    1186.   1281.     1.3  1080.   0.0       0.      0.  5543.    0.0      0.   3576.   3056.      2.      0.      0.
+    126  1112.    1178.   1277.     1.3  1084.   0.0       0.      0.  5543.    0.0      0.   3583.   3063.      2.      0.      0.
+    127  1121.    1167.   1270.     1.3  1088.   0.0       0.      0.  5543.    0.0      0.   3593.   3074.      2.      0.      0.
+    128  1134.    1151.   1260.     1.3  1095.   0.0       0.      0.  5543.    0.0      0.   3608.   3091.      2.      0.      0.
+    129  1149.    1132.   1248.     1.3  1103.   0.0       0.      0.  5542.    0.0      0.   3625.   3109.      2.      0.      0.
+    130  1164.    1113.   1236.     1.3  1111.   0.0       0.      0.  5542.    0.0      0.   3641.   3128.      2.      0.      0.
+    131  1179.    1097.   1227.     1.3  1119.   0.0       0.      0.  5541.    0.0      0.   3658.   3146.      2.      0.      0.
+    132  1194.    1083.   1218.     1.3  1125.   0.0       0.      0.  5541.    0.0      0.   3674.   3165.      2.      0.      0.
+    133  1209.    1229.   1285.     1.2  1046.   0.0       0.      0.  5541.    0.0      0.   3692.   3184.      2.      0.      0.
+    134  1224.    1161.   1237.     1.2  1065.   0.0       0.      0.  5540.    0.0      0.   3710.   3202.      2.      0.      0.
+    135  1239.    1127.   1216.     1.2  1080.   0.0       0.      0.  5540.    0.0      0.   3727.   3221.      2.      0.      0.
+    136  1254.    1101.   1201.     1.2  1091.   0.0       0.      0.  5540.    0.0      0.   3743.   3239.      2.      0.      0.
+    137  1269.    1080.   1188.     1.2  1101.   0.0       0.      0.  5539.    0.0      0.   3759.   3257.      2.      0.      0.
+    138  1284.    1035.   1158.     1.2  1119.   0.0       0.      0.  5539.    0.0      0.   3775.   3274.      2.      0.      0.
+    139  1299.    1004.   1139.     1.2  1135.   0.0       0.      0.  5539.    0.0      0.   3790.   3291.      2.      0.      0.
+    140  1314.     980.   1126.     1.2  1149.   0.0       0.      0.  5538.    0.0      0.   3805.   3308.      2.      0.      0.
+    141  1329.     962.   1116.     1.2  1161.   0.0       0.      0.  5538.    0.0      0.   3819.   3325.      2.      0.      0.
+    142  1344.    1023.   1143.     1.2  1117.   0.0       0.      0.  5538.    0.0      0.   3834.   3342.      2.      0.      0.
+    143  1359.     981.   1114.     1.2  1135.   0.0       0.      0.  5538.    0.0      0.   3849.   3358.      3.      0.      0.
+    144  1374.     960.   1102.     1.2  1148.   0.0       0.      0.  5537.    0.0      0.   3864.   3375.      3.      0.      0.
+    145  1389.     943.   1093.     1.2  1158.   0.0       0.      0.  5537.    0.0      0.   3878.   3391.      3.      0.      0.
+    146  1404.     930.   1084.     1.2  1166.   0.0       0.      0.  5537.    0.0      0.   3892.   3408.      3.      0.      0.
+    147  1419.     919.   1077.     1.2  1172.   0.0       0.      0.  5536.    0.0      0.   3905.   3424.      3.      0.      0.
+    148  1434.     991.   1109.     1.2  1119.   0.0       0.      0.  5536.    0.0      0.   3920.   3440.      3.      0.      0.
+    149  1449.     982.   1102.     1.1  1122.   0.0       0.      0.  5536.    0.0      0.   3935.   3457.      3.      0.      0.
+    150  1460.     948.   1078.     1.1  1138.   0.0       0.      0.  5536.    0.0      0.   3946.   3469.      3.      0.      0.
+    151  1475.    1005.   1102.     1.1  1097.   0.0       0.      0.  5535.    0.0      0.   3961.   3486.      3.      0.      0.
+    152  1490.     956.   1070.     1.1  1119.   0.0       0.      0.  5535.    0.0      0.   3975.   3502.      3.      0.      0.
+    153  1505.     934.   1058.     1.1  1133.   0.0       0.      0.  5535.    0.0      0.   3989.   3518.      3.      0.      0.
+    154  1520.     916.   1047.     1.1  1144.   0.0       0.      0.  5535.    0.0      0.   4003.   3533.      3.      0.      0.
+    155  1535.     901.   1038.     1.1  1153.   0.0       0.      0.  5534.    0.0      0.   4016.   3549.      3.      0.      0.
+    156  1550.     888.   1031.     1.1  1160.   0.0       0.      0.  5534.    0.0      0.   4030.   3564.      3.      0.      0.
+    157  1565.     878.   1025.     1.1  1167.   0.0       0.      0.  5534.    0.0      0.   4043.   3580.      3.      0.      0.
+    158  1580.     870.   1019.     1.1  1171.   0.0       0.      0.  5533.    0.0      0.   4056.   3595.      3.      0.      0.
+    159  1595.     916.   1035.     1.1  1130.   0.0       0.      0.  5533.    0.0      0.   4070.   3611.      3.      0.      0.
+    160  1610.     867.   1004.     1.1  1158.   0.0       0.      0.  5533.    0.0      0.   4083.   3626.      3.      0.      0.
+    161  1625.     838.    989.     1.1  1180.   0.0       0.      0.  5533.    0.0      0.   4095.   3641.      3.      0.      0.
+    162  1640.     816.    978.     1.1  1197.   0.0       0.      0.  5533.    0.0      0.   4108.   3655.      3.      0.      0.
+    163  1655.     799.    968.     1.1  1211.   0.0       0.      0.  5532.    0.0      0.   4120.   3670.      3.      0.      0.
+    164  1670.     785.    960.     1.1  1222.   0.0       0.      0.  5532.    0.0      0.   4131.   3684.      3.      0.      0.
+    165  1685.     774.    953.     1.1  1231.   0.0       0.      0.  5532.    0.0      0.   4143.   3698.      3.      0.      0.
+    166  1700.     765.    949.     1.1  1239.   0.0       0.      0.  5532.    0.0      0.   4154.   3713.      3.      0.      0.
+    167  1715.     759.    945.     1.1  1245.   0.0       0.      0.  5531.    0.0      0.   4166.   3727.      3.      0.      0.
+    168  1730.     832.    979.     1.1  1178.   0.0       0.      0.  5531.    0.0      0.   4178.   3742.      3.      0.      0.
+    169  1745.     798.    955.     1.1  1197.   0.0       0.      0.  5531.    0.0      0.   4190.   3756.      3.      0.      0.
+    170  1760.     782.    946.     1.1  1209.   0.0       0.      0.  5531.    0.0      0.   4202.   3770.      3.      0.      0.
+    171  1775.     770.    939.     1.1  1219.   0.0       0.      0.  5530.    0.0      0.   4214.   3784.      3.      0.      0.
+    172  1790.     760.    932.     1.1  1226.   0.0       0.      0.  5530.    0.0      0.   4225.   3798.      3.      0.      0.
+    173  1805.     752.    927.     1.1  1232.   0.0       0.      0.  5530.    0.0      0.   4236.   3812.      3.      0.      0.
+    174  1820.     745.    921.     1.0  1236.   0.0       0.      0.  5530.    0.0      0.   4247.   3826.      3.      0.      0.
+    175  1825.     741.    919.     1.0  1241.   0.0       0.      0.  5530.    0.0      0.   4251.   3830.      3.      0.      0.
+    176  1833.     739.    917.     1.0  1242.   0.0       0.      0.  5530.    0.0      0.   4257.   3837.      3.      0.      0.
+    177  1844.     736.    915.     1.0  1244.   0.0       0.      0.  5530.    0.0      0.   4265.   3848.      3.      0.      0.
+    178  1859.     809.    949.     1.0  1174.   0.0       0.      0.  5529.    0.0      0.   4277.   3862.      3.      0.      0.
+    179  1874.     776.    925.     1.0  1193.   0.0       0.      0.  5529.    0.0      0.   4289.   3876.      3.      0.      0.
+    180  1889.     761.    917.     1.0  1204.   0.0       0.      0.  5529.    0.0      0.   4300.   3889.      3.      0.      0.
+    181  1904.     750.    910.     1.0  1213.   0.0       0.      0.  5529.    0.0      0.   4311.   3903.      3.      0.      0.
+    182  1919.     741.    904.     1.0  1220.   0.0       0.      0.  5528.    0.0      0.   4322.   3917.      3.      0.      0.
+    183  1934.     734.    899.     1.0  1226.   0.0       0.      0.  5528.    0.0      0.   4333.   3930.      3.      0.      0.
+    184  1949.     727.    895.     1.0  1230.   0.0       0.      0.  5528.    0.0      0.   4344.   3944.      3.      0.      0.
+    185  1964.     722.    891.     1.0  1234.   0.0       0.      0.  5528.    0.0      0.   4355.   3957.      3.      0.      0.
+    186  1979.     717.    888.     1.0  1238.   0.0       0.      0.  5528.    0.0      0.   4366.   3970.      3.      0.      0.
+    187  1994.     713.    885.     1.0  1240.   0.0       0.      0.  5528.    0.0      0.   4377.   3984.      3.      0.      0.
+    188  2009.     710.    882.     1.0  1242.   0.0       0.      0.  5527.    0.0      0.   4387.   3997.      3.      0.      0.
+    189  2024.     708.    879.     1.0  1243.   0.0       0.      0.  5527.    0.0      0.   4398.   4010.      3.      0.      0.
+    190  2039.     705.    877.     1.0  1243.   0.0       0.      0.  5527.    0.0      0.   4408.   4023.      3.      0.      0.
+    191  2054.     703.    874.     1.0  1243.   0.0       0.      0.  5527.    0.0      0.   4419.   4036.      3.      0.      0.
+    192  2069.     701.    871.     1.0  1243.   0.0       0.      0.  5527.    0.0      0.   4430.   4049.      3.      0.      0.
+    193  2084.     699.    869.     1.0  1242.   0.0       0.      0.  5526.    0.0      0.   4440.   4062.      3.      0.      0.
+    194  2099.     697.    866.     1.0  1242.   0.0       0.      0.  5526.    0.0      0.   4451.   4075.      3.      0.      0.
+    195  2114.     696.    864.     1.0  1241.   0.0       0.      0.  5526.    0.0      0.   4461.   4088.      3.      0.      0.
+    196  2129.     694.    861.     1.0  1241.   0.0       0.      0.  5526.    0.0      0.   4471.   4101.      3.      0.      0.
+    197  2144.     692.    858.     1.0  1240.   0.0       0.      0.  5526.    0.0      0.   4482.   4114.      3.      0.      0.
+    198  2159.     690.    856.     1.0  1240.   0.0       0.      0.  5526.    0.0      0.   4492.   4127.      3.      0.      0.
+    199  2174.     689.    853.     1.0  1239.   0.0       0.      0.  5525.    0.0      0.   4502.   4140.      3.      0.      0.
+    200  2189.     687.    851.     1.0  1238.   0.0       0.      0.  5525.    0.0      0.   4513.   4152.      3.      0.      0.
+    201  2190.     687.    850.     1.0  1238.   0.0       0.      0.  5525.    0.0      0.   4514.   4153.      3.      0.      0.
+    202  2192.     687.    850.     1.0  1238.   0.0       0.      0.  5525.    0.0      0.   4515.   4155.      3.      0.      0.
+    203  2195.     683.    847.     1.0  1241.   0.0       0.      0.  5525.    0.0      0.   4517.   4157.      3.      0.      0.
+    204  2199.     678.    843.     1.0  1244.   0.0       0.      0.  5525.    0.0      0.   4520.   4161.      3.      0.      0.
+    205  2205.     670.    837.     1.0  1249.   0.0       0.      0.  5525.    0.0      0.   4524.   4166.      3.      0.      0.
+    206  2215.     659.    830.     1.0  1258.   0.0       0.      0.  5525.    0.0      0.   4530.   4174.      3.      0.      0.
+    207  2229.     646.    821.     1.0  1270.   0.0       0.      0.  5525.    0.0      0.   4539.   4186.      3.      0.      0.
+    208  2244.     634.    814.     1.0  1285.   0.0       0.      0.  5525.    0.0      0.   4549.   4198.      3.      0.      0.
+    209  2259.     623.    808.     1.0  1297.   0.0       0.      0.  5525.    0.0      0.   4558.   4210.      3.      0.      0.
+    210  2274.     615.    803.     1.0  1306.   0.0       0.      0.  5524.    0.0      0.   4567.   4222.      3.      0.      0.
+    211  2289.     608.    799.     1.0  1314.   0.0       0.      0.  5524.    0.0      0.   4577.   4234.      3.      0.      0.
+    212  2304.     603.    795.     1.0  1319.   0.0       0.      0.  5524.    0.0      0.   4586.   4246.      4.      0.      0.
+    213  2319.     599.    793.     1.0  1325.   0.0       0.      0.  5524.    0.0      0.   4595.   4258.      4.      0.      0.
+    214  2334.     595.    791.     1.0  1329.   0.0       0.      0.  5524.    0.0      0.   4603.   4270.      4.      0.      0.
+    215  2349.     593.    789.     1.0  1331.   0.0       0.      0.  5524.    0.0      0.   4612.   4282.      4.      0.      0.
+    216  2364.     590.    787.     1.0  1333.   0.0       0.      0.  5523.    0.0      0.   4621.   4294.      4.      0.      0.
+    217  2379.     588.    785.     1.0  1334.   0.0       0.      0.  5523.    0.0      0.   4630.   4305.      4.      0.      0.
+    218  2394.     587.    783.     0.9  1334.   0.0       0.      0.  5523.    0.0      0.   4639.   4317.      4.      0.      0.
+    219  2409.     585.    781.     0.9  1334.   0.0       0.      0.  5523.    0.0      0.   4648.   4329.      4.      0.      0.
+    220  2424.     584.    779.     0.9  1334.   0.0       0.      0.  5523.    0.0      0.   4656.   4340.      4.      0.      0.
+    221  2439.     582.    776.     0.9  1334.   0.0       0.      0.  5523.    0.0      0.   4665.   4352.      4.      0.      0.
+    222  2454.     666.    815.     0.9  1224.   0.0       0.      0.  5523.    0.0      0.   4675.   4364.      4.      0.      0.
+    223  2469.     663.    812.     0.9  1224.   0.0       0.      0.  5522.    0.0      0.   4685.   4377.      4.      0.      0.
+    224  2484.     661.    809.     0.9  1224.   0.0       0.      0.  5522.    0.0      0.   4695.   4389.      4.      0.      0.
+    225  2499.     659.    806.     0.9  1224.   0.0       0.      0.  5522.    0.0      0.   4705.   4401.      4.      0.      0.
+    226  2514.     630.    786.     0.9  1248.   0.0       0.      0.  5522.    0.0      0.   4714.   4413.      4.      0.      0.
+    227  2529.     613.    776.     0.9  1265.   0.0       0.      0.  5522.    0.0      0.   4723.   4424.      4.      0.      0.
+    228  2544.     601.    770.     0.9  1280.   0.0       0.      0.  5522.    0.0      0.   4732.   4436.      4.      0.      0.
+    229  2555.     592.    765.     0.9  1291.   0.0       0.      0.  5522.    0.0      0.   4739.   4444.      4.      0.      0.
+    230  2570.     587.    761.     0.9  1297.   0.0       0.      0.  5522.    0.0      0.   4748.   4456.      4.      0.      0.
+    231  2585.     580.    757.     0.9  1304.   0.0       0.      0.  5521.    0.0      0.   4757.   4467.      4.      0.      0.
+    232  2600.     575.    754.     0.9  1311.   0.0       0.      0.  5521.    0.0      0.   4765.   4478.      4.      0.      0.
+    233  2615.     571.    752.     0.9  1316.   0.0       0.      0.  5521.    0.0      0.   4774.   4490.      4.      0.      0.
+    234  2630.     568.    750.     0.9  1320.   0.0       0.      0.  5521.    0.0      0.   4782.   4501.      4.      0.      0.
+    235  2645.     566.    748.     0.9  1322.   0.0       0.      0.  5521.    0.0      0.   4791.   4512.      4.      0.      0.
+    236  2660.     564.    746.     0.9  1324.   0.0       0.      0.  5521.    0.0      0.   4799.   4523.      4.      0.      0.
+    237  2675.     562.    744.     0.9  1324.   0.0       0.      0.  5521.    0.0      0.   4808.   4534.      4.      0.      0.
+    238  2690.     644.    782.     0.9  1215.   0.0       0.      0.  5520.    0.0      0.   4817.   4546.      4.      0.      0.
+    239  2705.     641.    779.     0.9  1215.   0.0       0.      0.  5520.    0.0      0.   4827.   4558.      4.      0.      0.
+    240  2720.     612.    759.     0.9  1240.   0.0       0.      0.  5520.    0.0      0.   4836.   4569.      4.      0.      0.
+    241  2735.     596.    749.     0.9  1257.   0.0       0.      0.  5520.    0.0      0.   4845.   4580.      4.      0.      0.
+    242  2750.     584.    743.     0.9  1272.   0.0       0.      0.  5520.    0.0      0.   4854.   4592.      4.      0.      0.
+    243  2765.     575.    738.     0.9  1284.   0.0       0.      0.  5520.    0.0      0.   4862.   4603.      4.      0.      0.
+    244  2780.     567.    734.     0.9  1293.   0.0       0.      0.  5520.    0.0      0.   4871.   4614.      4.      0.      0.
+    245  2795.     562.    730.     0.9  1300.   0.0       0.      0.  5520.    0.0      0.   4879.   4625.      4.      0.      0.
+    246  2810.     557.    727.     0.9  1306.   0.0       0.      0.  5519.    0.0      0.   4888.   4635.      4.      0.      0.
+    247  2825.     553.    726.     0.9  1311.   0.0       0.      0.  5519.    0.0      0.   4896.   4646.      4.      0.      0.
+    248  2840.     551.    724.     0.9  1315.   0.0       0.      0.  5519.    0.0      0.   4904.   4657.      4.      0.      0.
+    249  2855.     548.    722.     0.9  1317.   0.0       0.      0.  5519.    0.0      0.   4912.   4668.      4.      0.      0.
+    250  2870.     546.    720.     0.9  1318.   0.0       0.      0.  5519.    0.0      0.   4921.   4679.      4.      0.      0.
+    251  2885.     627.    757.     0.9  1209.   0.0       0.      0.  5519.    0.0      0.   4930.   4690.      4.      0.      0.
+    252  2900.     596.    736.     0.9  1235.   0.0       0.      0.  5519.    0.0      0.   4939.   4701.      4.      0.      0.
+    253  2915.     580.    727.     0.9  1253.   0.0       0.      0.  5519.    0.0      0.   4948.   4712.      4.      0.      0.
+    254  2920.     570.    722.     0.9  1267.   0.0       0.      0.  5519.    0.0      0.   4951.   4716.      4.      0.      0.
+    255  2928.     567.    720.     0.9  1271.   0.0       0.      0.  5519.    0.0      0.   4955.   4721.      4.      0.      0.
+    256  2939.     562.    718.     0.9  1277.   0.0       0.      0.  5518.    0.0      0.   4961.   4729.      4.      0.      0.
+    257  2954.     556.    714.     0.9  1284.   0.0       0.      0.  5518.    0.0      0.   4969.   4740.      4.      0.      0.
+    258  2969.     550.    710.     0.9  1292.   0.0       0.      0.  5518.    0.0      0.   4978.   4751.      4.      0.      0.
+    259  2984.     545.    707.     0.9  1298.   0.0       0.      0.  5518.    0.0      0.   4986.   4761.      4.      0.      0.
+    260  2999.     541.    705.     0.9  1304.   0.0       0.      0.  5518.    0.0      0.   4994.   4772.      4.      0.      0.
+    261  3014.     537.    703.     0.9  1309.   0.0       0.      0.  5518.    0.0      0.   5002.   4782.      4.      0.      0.
+    262  3029.     535.    702.     0.9  1312.   0.0       0.      0.  5518.    0.0      0.   5010.   4793.      4.      0.      0.
+    263  3044.     613.    738.     0.9  1204.   0.0       0.      0.  5518.    0.0      0.   5019.   4804.      4.      0.      0.
+    264  3059.     582.    716.     0.9  1231.   0.0       0.      0.  5518.    0.0      0.   5028.   4815.      4.      0.      0.
+    265  3074.     567.    708.     0.9  1249.   0.0       0.      0.  5517.    0.0      0.   5037.   4825.      4.      0.      0.
+    266  3089.     556.    703.     0.9  1263.   0.0       0.      0.  5517.    0.0      0.   5045.   4836.      4.      0.      0.
+    267  3104.     548.    698.     0.9  1274.   0.0       0.      0.  5517.    0.0      0.   5053.   4846.      4.      0.      0.
+    268  3119.     541.    694.     0.9  1283.   0.0       0.      0.  5517.    0.0      0.   5061.   4857.      4.      0.      0.
+    269  3134.     535.    691.     0.9  1290.   0.0       0.      0.  5517.    0.0      0.   5069.   4867.      4.      0.      0.
+    270  3149.     531.    688.     0.9  1296.   0.0       0.      0.  5517.    0.0      0.   5077.   4877.      4.      0.      0.
+    271  3164.     527.    686.     0.9  1302.   0.0       0.      0.  5517.    0.0      0.   5085.   4888.      4.      0.      0.
+    272  3179.     524.    684.     0.9  1306.   0.0       0.      0.  5517.    0.0      0.   5093.   4898.      4.      0.      0.
+    273  3194.     521.    682.     0.8  1309.   0.0       0.      0.  5517.    0.0      0.   5101.   4908.      4.      0.      0.
+    274  3209.     599.    718.     0.8  1199.   0.0       0.      0.  5516.    0.0      0.   5110.   4919.      4.      0.      0.
+    275  3224.     566.    696.     0.8  1228.   0.0       0.      0.  5516.    0.0      0.   5118.   4929.      4.      0.      0.
+    276  3239.     553.    688.     0.8  1245.   0.0       0.      0.  5516.    0.0      0.   5127.   4940.      4.      0.      0.
+    277  3254.     542.    683.     0.8  1259.   0.0       0.      0.  5516.    0.0      0.   5135.   4950.      4.      0.      0.
+    278  3269.     534.    678.     0.8  1270.   0.0       0.      0.  5516.    0.0      0.   5143.   4960.      4.      0.      0.
+    279  3284.     527.    674.     0.8  1279.   0.0       0.      0.  5516.    0.0      0.   5151.   4970.      4.      0.      0.
+    280  3285.     522.    672.     0.8  1287.   0.0       0.      0.  5516.    0.0      0.   5151.   4971.      4.      0.      0.
+    281  3287.     522.    672.     0.8  1287.   0.0       0.      0.  5516.    0.0      0.   5152.   4972.      4.      0.      0.
+    282  3290.     521.    671.     0.8  1288.   0.0       0.      0.  5516.    0.0      0.   5154.   4974.      4.      0.      0.
+    283  3294.     521.    671.     0.8  1289.   0.0       0.      0.  5516.    0.0      0.   5156.   4977.      4.      0.      0.
+    284  3300.     519.    670.     0.8  1290.   0.0       0.      0.  5516.    0.0      0.   5159.   4981.      4.      0.      0.
+    285  3310.     517.    669.     0.8  1293.   0.0       0.      0.  5516.    0.0      0.   5164.   4988.      4.      0.      0.
+    286  3324.     515.    667.     0.8  1297.   0.0       0.      0.  5516.    0.0      0.   5171.   4997.      4.      0.      0.
+    287  3339.     511.    665.     0.8  1301.   0.0       0.      0.  5516.    0.0      0.   5179.   5007.      4.      0.      0.
+    288  3354.     508.    664.     0.8  1305.   0.0       0.      0.  5515.    0.0      0.   5187.   5017.      4.      0.      0.
+    289  3369.     506.    662.     0.8  1307.   0.0       0.      0.  5515.    0.0      0.   5194.   5027.      4.      0.      0.
+    290  3384.     504.    660.     0.8  1309.   0.0       0.      0.  5515.    0.0      0.   5202.   5037.      4.      0.      0.
+    291  3399.     502.    658.     0.8  1310.   0.0       0.      0.  5515.    0.0      0.   5209.   5047.      4.      0.      0.
+    292  3414.     501.    657.     0.8  1311.   0.0       0.      0.  5515.    0.0      0.   5217.   5057.      4.      0.      0.
+    293  3429.     499.    655.     0.8  1312.   0.0       0.      0.  5515.    0.0      0.   5224.   5066.      5.      0.      0.
+    294  3444.     498.    653.     0.8  1312.   0.0       0.      0.  5515.    0.0      0.   5232.   5076.      5.      0.      0.
+    295  3459.     496.    651.     0.8  1312.   0.0       0.      0.  5515.    0.0      0.   5239.   5086.      5.      0.      0.
+    296  3474.     495.    650.     0.8  1312.   0.0       0.      0.  5515.    0.0      0.   5247.   5096.      5.      0.      0.
+    297  3489.     494.    648.     0.8  1312.   0.0       0.      0.  5515.    0.0      0.   5254.   5105.      5.      0.      0.
+    298  3504.     492.    646.     0.8  1312.   0.0       0.      0.  5514.    0.0      0.   5262.   5115.      5.      0.      0.
+    299  3519.     491.    644.     0.8  1312.   0.0       0.      0.  5514.    0.0      0.   5269.   5125.      5.      0.      0.
+    300  3534.     490.    643.     0.8  1312.   0.0       0.      0.  5514.    0.0      0.   5276.   5134.      5.      0.      0.
+    301  3549.     488.    641.     0.8  1312.   0.0       0.      0.  5514.    0.0      0.   5284.   5144.      5.      0.      0.
+    302  3564.     487.    639.     0.8  1312.   0.0       0.      0.  5514.    0.0      0.   5291.   5154.      5.      0.      0.
+    303  3579.     486.    637.     0.8  1312.   0.0       0.      0.  5514.    0.0      0.   5298.   5163.      5.      0.      0.
+    304  3594.     485.    636.     0.8  1312.   0.0       0.      0.  5514.    0.0      0.   5305.   5173.      5.      0.      0.
+    305  3609.     483.    634.     0.8  1312.   0.0       0.      0.  5514.    0.0      0.   5313.   5182.      5.      0.      0.
+    306  3624.     482.    632.     0.8  1312.   0.0       0.      0.  5514.    0.0      0.   5320.   5192.      5.      0.      0.
+    307  3639.     481.    631.     0.8  1312.   0.0       0.      0.  5514.    0.0      0.   5327.   5201.      5.      0.      0.
+    308  3650.     480.    629.     0.8  1312.   0.0       0.      0.  5514.    0.0      0.   5332.   5208.      5.      0.      0.

@@ -1,0 +1,19 @@
+ ColorNum  Red  Green  Blue
+   0        0    0     0        black  (always use black; colornum[0] is background)
+   1       20   20    20        darkgray
+   2       45    0     0        darkred
+   3       60    0     0        red
+   4       63   63     0        yellow
+   5       63   30     0        orange             
+   6       60   40     0        gold                      
+   7        0   63     0        brightgreen
+   8        0   50    20        medgreen
+   9        0   60    30        lightgreen
+  10        0   60    60        lightcyan
+  11        0   50    60        lightblue                   
+  12        0   30    60        medium blue             
+  13        0    0    60        blue                    
+  14       50   50    50        light gray 
+  15       63   63    63        white   
+
+  
